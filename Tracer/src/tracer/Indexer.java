@@ -76,7 +76,7 @@ public class Indexer
   private void separating(File file) throws IOException
   {	
     BufferedReader inputFile = new BufferedReader(new FileReader(file));
-    Pattern pattern = Pattern.compile("[a-zA-Z]+"); //regular expression
+    Pattern pattern = Pattern.compile("[a-zA-Z'/]+"); //regular expression
     String word, word2;
     while ((word = inputFile.readLine()) != null)
     {
