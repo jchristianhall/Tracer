@@ -38,8 +38,16 @@ public class Indexer
       separating(file);
       commentArray = spliting(commentArray);
       codeArray = spliting(codeArray);
+      
+      //System.out.println(commentArray.toString());
+      //System.out.println(codeArray.toString());
+      
       commentArray = stemming(commentArray);
       codeArray = stemming(codeArray);
+      
+      System.out.println(commentArray.toString());
+      System.out.println(codeArray.toString());
+      
       commentArray = trimming(commentArray);
       codeArray = trimming(codeArray);
     } 
@@ -159,8 +167,11 @@ public class Indexer
       // Build word to be stemmed, then stem
       for (int j=0; j < arrayToStem.get(i).length(); j++)
       {
-        char letter = arrayToStem.get(i).charAt(j);	
-        stemmer.add(letter);
+        char letter = arrayToStem.get(i).charAt(j);
+        if (letter != ' ')
+        {
+          stemmer.add(letter);
+        }
 		  }  	
 		  stemmer.stem();
 		  
