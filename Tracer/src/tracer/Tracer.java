@@ -105,7 +105,7 @@ public class Tracer extends JPanel
         // Go over files and calculate directories, files, and time
         long start = System.nanoTime();
         countFiles(fileList);
-        writeIndicies();
+        writeIndices();
         long end = System.nanoTime();
         double duration = (end - start)/1000000000.0;
 
@@ -154,7 +154,7 @@ public class Tracer extends JPanel
   /**
    * 
    */
-  public void writeIndicies()
+  public void writeIndices()
   {
     try
     {
