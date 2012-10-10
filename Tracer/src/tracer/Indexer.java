@@ -130,7 +130,7 @@ public class Indexer
     char letter;
     for(String stringToCheck : arrayToSplit)
     {
-      for(int i = 1; i < stringToCheck.length(); i++)
+      for(int i = 0; i < stringToCheck.length(); i++)
       {
         letter = stringToCheck.charAt(i);
         if(letter >= 'A' && letter <= 'Z' || letter == '\'' || letter == '/')
@@ -139,6 +139,8 @@ public class Indexer
           stringToCheck = stringToCheck.substring(i);
           i = 0;
         }
+        if(stringToCheck.startsWith("/"))
+          stringToCheck = stringToCheck.substring(1);
       }
       tempArray.add(stringToCheck.toLowerCase());
     }
@@ -146,15 +148,15 @@ public class Indexer
   }
     
   /**
-	 * @about Stems commentArray using the Porter Stemmer algorithm in 
+   * @about Stems commentArray using the Porter Stemmer algorithm in 
    * Stemmer.java
    * Module written by Matthew
-	 */
-	private ArrayList<String> stemming(ArrayList<String> arrayToStem)
+   */
+  private ArrayList<String> stemming(ArrayList<String> arrayToStem)
   {
     ArrayList<String> stemmedArray = new ArrayList<String>();
     Stemmer stemmer = new Stemmer();
-		for (int i=0; i < arrayToStem.size(); i++)
+    for (int i=0; i < arrayToStem.size(); i++)
     {
       // Build word to be stemmed, then stem
       for (int j=0; j < arrayToStem.get(i).length(); j++)
@@ -164,25 +166,25 @@ public class Indexer
         {
           stemmer.add(letter);
         }
-		  }  	
-		  stemmer.stem();
-		  
-		  // Stop double words with checkWord, add word if not double or stem list
+      }  	
+      stemmer.stem();
+
+      // Stop double words with checkWord, add word if not double or stem list
       // is empty
-		  if(arrayToStem.size() > 0){
+      if(arrayToStem.size() > 0){
         boolean isDouble = checkWord(stemmedArray, stemmer);
-		    if(!isDouble)
+        if(!isDouble)
         {
-		    	stemmedArray.add(stemmer.toString());
-		    }
-		  }
-		  else
+          stemmedArray.add(stemmer.toString());
+        }
+      }
+      else
       {
-		    stemmedArray.add(stemmer.toString());
-		  }
-		}
-		return stemmedArray; // Return new stemmedArray to replace old arrayToStem
-	}
+        stemmedArray.add(stemmer.toString());
+      }
+    }
+    return stemmedArray; // Return new stemmedArray to replace old arrayToStem
+  }
 
   /**
    * @about Check to see if stemmed word already exists
@@ -191,20 +193,20 @@ public class Indexer
    * @param stemmer - Stemmer from Porter Stemmer
    * @return true if word is in stemmedArray, false if not
    */
-	private boolean checkWord(ArrayList<String> stemmedArray, Stemmer stemmer)
+  private boolean checkWord(ArrayList<String> stemmedArray, Stemmer stemmer)
   {
-		for(int k=0; k < stemmedArray.size(); k++)
+    for(int k=0; k < stemmedArray.size(); k++)
     {
       String doubleWord = stemmedArray.get(k).toString();
-    	String compare = stemmer.toString();	
-    	if(compare.equals(doubleWord))
+      String compare = stemmer.toString();	
+      if(compare.equals(doubleWord))
       {
-    		return true;
-    	}
-		}
+        return true;
+      }
+    }
     return false;
-	}
-   
+  }
+
   /**
    * @about Processes the input files of the list of stop words into 
    * listOfStopWords
