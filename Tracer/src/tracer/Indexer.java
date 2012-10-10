@@ -38,16 +38,8 @@ public class Indexer
       separating(file);
       commentArray = spliting(commentArray);
       codeArray = spliting(codeArray);
-      
-      //System.out.println(commentArray.toString());
-      //System.out.println(codeArray.toString());
-      
       commentArray = stemming(commentArray);
       codeArray = stemming(codeArray);
-      
-      System.out.println(commentArray.toString());
-      System.out.println(codeArray.toString());
-      
       commentArray = trimming(commentArray);
       codeArray = trimming(codeArray);
     } 
