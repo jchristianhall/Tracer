@@ -1,0 +1,34 @@
+
+Takes a parameter map and creates a bean from that map of the appropriate type 
+param T The type to be returned from the appropriate parameter map 
+
+
+The code here is not obvious but this method should not need rewriting unless a bug is found 
+
+param map 
+typically a request getParameterMap also can be a HashMap 
+param bean 
+an instantiated bean to be loaded Loaded bean is returned 
+return a loaded bean 
+throws Exception 
+Several exceptions are thrown here so promotion seemed fitting 
+
+this warning is only suppressed because Map isn't parameterized old JSP 
+JavaBeans should not have overloaded methods according to their API 
+a stupid limitation 
+Nevertheless we should check for it 
+Use an introspector to find all of the getXXX or setXXX we only want 
+the setXXX 
+if object is null either it was ignored or empty just go with 
+bean's default 
+descriptor's name is the name of your property like 
+firstName 
+only take the first string 
+Skip the setters for enumerations 
+Throw a more informative exception 
+
+Checks for overloaded methods 
+
+param bean item to check 
+
+allow an equals override 
