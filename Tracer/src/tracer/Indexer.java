@@ -139,7 +139,7 @@ public class Indexer
           stringToCheck = stringToCheck.substring(i);
           i = 0;
         }
-        if(stringToCheck.startsWith("/"))
+        if(stringToCheck.startsWith("/") || stringToCheck.startsWith("'"))
           stringToCheck = stringToCheck.substring(1);
       }
       tempArray.add(stringToCheck.toLowerCase());
