@@ -47,7 +47,7 @@ public class Indexer
       codeArray = trimming(codeArray);
       
 	  //comment this out to prevent database creation
-      createdb.create(codeArray, commentArray, pathName);
+      //createdb.create(codeArray, commentArray, pathName);
       
     } 
     catch (IOException e)
