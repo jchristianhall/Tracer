@@ -22,6 +22,7 @@ public class Indexer
 {
   private ArrayList<String> codeArray, commentArray;
   private String pathName;
+  private CreateDatabase createdb;
   
   /**
    * @about Constructor creates new path name and array lists and runs indexer
@@ -33,6 +34,8 @@ public class Indexer
     pathName = file.getAbsolutePath();
     codeArray = new ArrayList<String>();
     commentArray = new ArrayList<String>();
+    createdb = new CreateDatabase();
+    
     try
     {
       separating(file);
@@ -42,6 +45,10 @@ public class Indexer
       codeArray = stemming(codeArray);
       commentArray = trimming(commentArray);
       codeArray = trimming(codeArray);
+      
+	  //comment this out to prevent database creation
+      createdb.create(codeArray, commentArray, pathName);
+      
     } 
     catch (IOException e)
     {
