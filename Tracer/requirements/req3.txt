@@ -1,0 +1,25 @@
+UC10 Enter/edit personal health records Use Case
+"10.1 Preconditions:
+
+An HCP is a registered user of the iTrust Medical Records system [UC2]. The HCP has authenticated himself or herself in the iTrust Medical Records system [UC3].
+Main Flow:
+
+An HCP chooses to enter/edit personal health information. The information is view/editied [S1].
+
+
+    [S1]The health care personnel enters a MID [E1] of a patient and confirms their selection [E2]. The health care personnel may enter/edit personal health information including editing historical values from Data Format 6.4.1, 6.4.2 ,6.4.3 and 6.4.4, immunizations, and office visit information (date, diagnoses, medication, name of attending physician but not notes, laboratory procedures), family history (the MIDs of the patient's mother and father), and Body Mass Index (BMI) [S4]. The HCP can indicate the patient has passed away, providing an appropriate diagnosis code. The HCP can graph height or weight of the patient over the last 3 calendar years [S3].
+    [S3] For the patient, the HCP can choose either height or weight to graph. The HCP is presented with a line chart giving the chosen measurements (either height or weight) of the patient spanning the last 3 calendar years of data, averaged by quarters (January-March, April-June, July-September, October-December) [E3].
+    [S4] For each entry in the patient's basic health information history, the HCP is presented with an automatically-calculated value of BMI (in the format of digits XX.XX) calculated based on the formula “(weight in pounds * 703)/(height in inches * height in inches)” [E4]
+
+
+
+    [E1] The health care professional types an invalid medical identification number and is prompted to try again.
+    [E2] The patient chosen is not the desired patient. The health care professional does not confirm the selection and is prompted to try again.
+    [E3] There are no chosen measurements recorded within a quarter. The displayed measurement for the quarter is zero.
+    [E4] The height measurement value is 0. “Invalid height value of 0!” instead of a BMI value is displayed.
+
+
+
+    View Personal Health information [UC 5, S1000]
+    Enter/Edit Personal Health Information [UC 5, S1001]
+    View Basic Health Charts [UC5, S1002]"

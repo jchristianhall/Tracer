@@ -1,0 +1,4 @@
+View Patients
+"A LHCP is a registered user of the iTrust Medical Records system [UC2]. The iTrust user has been authenticated in the iTrust Medical Records system [UC3]. 
+The LHCP chooses to view all patients with which he or she has ever had an office visit with. The patient’s name (clickable to view PHR), address, and date of last office visit. The list is sorted by the date of the last office visit (most recent first). The event is logged [UC5, S29] 
+Office of the National Coordinator for Health Information Technology (ONC) Consumer Empowerment: Consumer Access to Clinical Information Prototype Use Case http://www.hhs.gov/healthit/usecases/consumeraccess.html, Scenario 2 "

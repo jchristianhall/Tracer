@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 
 public class Indexer
 {
-  private ArrayList<String> codeArray, commentArray;
+  private ArrayList<String> codeArray, commentArray, reqArray;
   private String pathName;
   private CreateDatabase createdb;
   
@@ -29,35 +29,55 @@ public class Indexer
    * functions for Indexer object.
    * @param file - file to be indexed
    */
-  public Indexer(File file)
+  public Indexer(File file, boolean isCode)
   {
     pathName = file.getAbsolutePath();
     codeArray = new ArrayList<String>();
     commentArray = new ArrayList<String>();
-    createdb = new CreateDatabase();
-    
-    try
+    if(isCode)//for java files
     {
-      separating(file);
-      commentArray = spliting(commentArray);
-      codeArray = spliting(codeArray);
-      commentArray = stemming(commentArray);
-      codeArray = stemming(codeArray);
-      commentArray = trimming(commentArray);
-      codeArray = trimming(codeArray);
+      try
+      {
+        separating(file);
+        commentArray = spliting(commentArray);
+        codeArray = spliting(codeArray);
+        commentArray = stemming(commentArray);
+        codeArray = stemming(codeArray);
+        commentArray = trimming(commentArray);
+        codeArray = trimming(codeArray);
       
 	  //comment this out to prevent database creation
       //createdb.create(codeArray, commentArray, pathName);
-      
-    } 
-    catch (IOException e)
-    {
-      System.out.println(e.getCause());
+      } 
+      catch (IOException e)
+      {
+        System.out.println(e.getCause());
+      }
     }
+    else//for requirements
+    {//filename example: "requirements/req1.txt"
+      reqArray = new ArrayList<String>();
+      try
+      {
+        separating(file);
+        codeArray = spliting(codeArray);
+        codeArray = stemming(codeArray);
+        codeArray = trimming(codeArray);
+        reqArray = codeArray;
+      
+	  //comment this out to prevent database creation
+      //createdb.create(codeArray, commentArray, pathName);
+      } 
+      catch (IOException e)
+      {
+        System.out.println(e.getCause());
+      }
+    }
+    createdb = new CreateDatabase();
   }
   
   /**
-   * @about Basic getter functions for path string and code and comment arrays
+   * @about Basic getter functions for path string and code and comment and requirement arrays
    * @return the array
    */
   public String getPathName()
@@ -71,6 +91,10 @@ public class Indexer
   public ArrayList<String> getCodeArray()
   {
     return codeArray;
+  }
+  public ArrayList<String> getReqArray()
+  {
+    return reqArray;
   }
   
   /**

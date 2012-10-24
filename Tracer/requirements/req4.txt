@@ -1,0 +1,7 @@
+Document office visit Use Case
+"An HCP is a registered user of the iTrust Medical Records system [UC2]. The iTrust user has authenticated himself or herself in the iTrust Medical Records system [UC3]. 
+An HCP chooses to document [S1] or edit [S2] an office visit . 
+ [S1] The LHCP enters a MID [E1] of a patient and confirms their input [E2]. The LHCP document the notes (numbers, characters, #, ;, ?, -, ', ., :, blankspace and carriage return) of an office visit, providing the date of the office visit, and their own medical identification number. Additionally, the HCP can document one or more diagnoses (ICD-9CM code), one or more medical procedures (CPT code) performed, one or more lab procedures that are ordered (LOINC code, see Data Format 6.11) one or more medications (NDC, see Data Format 5.6) prescribed, and one or more immunizations given (CPT Code, see UC15, S1) chosen from appropriate pull-down lists. The LHCP can indicate if the patient is allowed to restrict access to the diagnosis information. The event is logged [UC5, S8].
+[S2] LHCPs can return to an office visit and alter the fields of the office visit [text, diagnoses, medical procedures, medications]. The event is logged [UC5, S8]. 
+ [E1] The LHCP types an invalid medical identification number and is prompted to try again.
+[E2] The patient chosen is not the desired patient. The health care personnel does not confirm the selection and is prompted to try again."

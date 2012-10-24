@@ -1,0 +1,8 @@
+Take Satisfaction Survey Use Case
+"A patient is a registered user of the iTrust Medical Records system [UC1]. The iTrust user has authenticated himself or herself in the iTrust Medical Records system [UC3]. 
+A patient or personal health representative can answer any of the following questions relative to a previous (in UC9, S1) office visit according to Data Format 6.13. 
+How many minutes did you wait in the waiting room?
+How many minutes did you wait in the examination room before seeing your physician?
+How satisfied were you with your office visit?
+How satisfied were you with the treatment or information you received?
+The answers to the survey are stored. The event is logged [UC5, S26]. "
