@@ -145,6 +145,8 @@ public class Tracer extends JPanel
       else 
       {
         fileCount++;
+        
+        // add parameter (bool isCode)
         Indexer fileToIndex = new Indexer(file);
         indexList.add(fileToIndex);
       }
