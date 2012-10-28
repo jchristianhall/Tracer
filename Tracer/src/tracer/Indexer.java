@@ -34,50 +34,48 @@ public class Indexer
     pathName = file.getAbsolutePath();
     codeArray = new ArrayList<String>();
     commentArray = new ArrayList<String>();
-    if(isCode)//for java files
+    
+    // Indexer process for source code
+    if(isCode)
     {
       try
       {
         separating(file);
-        commentArray = spliting(commentArray);
-        codeArray = spliting(codeArray);
+        commentArray = splitting(commentArray);
+        codeArray = splitting(codeArray);
         commentArray = stemming(commentArray);
         codeArray = stemming(codeArray);
         commentArray = trimming(commentArray);
         codeArray = trimming(codeArray);
-      
-	  //comment this out to prevent database creation
-      //createdb.create(codeArray, commentArray, pathName);
       } 
       catch (IOException e)
       {
         System.out.println(e.getCause());
       }
     }
-    else//for requirements
-    {//filename example: "requirements/req1.txt"
+    
+    // Indexer process for requirements
+    else
+    {
       reqArray = new ArrayList<String>();
       try
       {
         separating(file);
-        codeArray = spliting(codeArray);
+        codeArray = splitting(codeArray);
         codeArray = stemming(codeArray);
         codeArray = trimming(codeArray);
         reqArray = codeArray;
-      
-	  //comment this out to prevent database creation
-      //createdb.create(codeArray, commentArray, pathName);
       } 
       catch (IOException e)
       {
         System.out.println(e.getCause());
       }
     }
-    createdb = new CreateDatabase();
   }
   
   /**
-   * @about Basic getter functions for path string and code and comment and requirement arrays
+   * @about Basic getter functions for path string and code and comment and 
+   * requirement arrays
    * @return the array
    */
   public String getPathName()
@@ -155,7 +153,7 @@ public class Indexer
    * @param arrayToSplit - Either the comment or code array in this class
    * @return tempArray - New array with split words
    */
-  private ArrayList<String> spliting(ArrayList<String> arrayToSplit)
+  private ArrayList<String> splitting(ArrayList<String> arrayToSplit)
   {
     ArrayList<String> tempArray = new ArrayList();
     char letter;

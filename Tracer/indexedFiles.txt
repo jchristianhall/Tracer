@@ -1,22 +1,15 @@
-Path: /Users/adamthrash/Downloads/iTrust/src/.DS_Store
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/.DS_Store
 Comments: []
-Code: [bud, spblob, ubwspblob, bplist, window, bounds, show, sidebar, statu, bar, pathbar, toolbar, sidebar, width, srnlong]
+Code: [bud, scomp, ulg, umo, ddutc, umod, uph]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ActivityFeedAction.java
 Comments: [handl, retriev, log, record, access, user, view, jsp, author, laurenhayward, factori, creat, action, person, list, transact, bean, date, pass, number, page, entri, form, valid, exist, filter, result, full, tran, affect, dlhcp, time, indic, dai, current, paramet, yesterdai, otherwis, depend, differ, pull, phrase, associ, type, english, sentenc, actor, timestamp]
 Code: [activ, feed, action, transact, tran, patient, auth, log, factori, list, bean, date, time, form, valid, personnel, dlhcp, declar, empti, full, recent, format, sdf, simpl, yyyi, dai, messag, sentenc, actor, timestamp, type, result, valu, viewabl, phrase, formatt, mma, todai, yesterdai, replac, user]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ActivityFeedAction.java
-Comments: [handles, retrieving, log, record, accesses, user, view, access, jsp, author, laurenhayward, factory, create, action, log, person, logs, returns, list, transact, beans, dates, passed, params, number, pages, entries, retrieve, form, valid, bean, full, tran, affecting, dlhcp, time, indicator, days, current, date, parameter, day, yesterday, depending, difference, pulls, phrase, type, forms, english, sentence, actor, timestamp]
-Code: [activ, feed, action, transact, tran, patient, auth, log, factory, list, bean, transactions, date, time, form, valid, personnel, dlhcps, declar, user, exists, filtered, results, dlhcp, empty, full, recent, date, format, sdf, simpl, yyyy, equals, day, messag, sentence, actor, timestamp, type, result, values, viewable, action, phrase, formatter, mma, today, yesterday, replac, activity, replace, user]
->>>>>>> Ignore this
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddApptAction.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddApptAction.java
 Comments: []
 Code: [appt, action, extend, bean, valid, factori, log, ignor, conflict, form, date, befor, timestamp, current, time, milli, schedul, appoint, alreadi, pass, hcp, size, warn, success, type, stack, trace, messag]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddApptRequestAction.java
 Comments: [time, type, durat]
 Code: [appt, request, action, type, factori, bean, list, conflict, hcp, empti, appoint, exist, save, pend, avail, num, arrai, patient, date, timestamp, time, size, end]
@@ -96,93 +89,11 @@ Code: [drug, interact, action, valid, log, factori, report, descript, trust, for
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditApptAction.java
 Comments: [retriev, appoint, databas, match, multipl, appt, bean, updat, exist, inform, messag, displai, form, valid, remov]
 Code: [edit, appt, action, extend, bean, valid, factori, log, list, size, stack, trace, ignor, conflict, form, date, befor, timestamp, current, time, milli, schedul, appoint, alreadi, pass, hcp, warn, success, chang, messag, remov]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddApptRequestAction.java
-Comments: [time, type, duration]
-Code: [appt, request, action, type, factory, request, bean, list, conflicts, conflict, appt, hcp, empty, appointment, requested, existing, appointments, saved, pending, avail, appts, num, arrai, type, patient, date, timestamp, time, conflict, size, end]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddDrugListAction.java
-Comments: [loads, file, input, stream, drug, database, file, content]
-Code: [drug, list, action, strategy, factory, event, log, upload, load, file, input, stream, file, content, skip, duplic, ndcode, scanner, line, dash, medic, bean, tokenizer, tok, token, parts, split, skip, drug, type, field, concat, description, event, transact, duplicate, entries, pass, overwrit, overwrite, updat]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddERespAction.java
-Comments: [personnel, page, jsp, adds, empty, creates, random, password, similar, link, offic, visit, action, patient, author, andy, meneely, copied, sets, defaults, factory, creating, log, person, logged, user, event, bean, information, form, valid, trust]
-Code: [resp, action, personnel, auth, factory, log, bean, form, valid, trust, validator, validate, empti, personnel, role, edit, pwd, user, random, password]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddHCPAction.java
-Comments: [personnel, page, jsp, adds, empty, creates, random, password, similar, link, offic, visit, action, patient, author, andy, meneely, sets, defaults, factory, creating, log, person, logged, user, event, bean, information, form, valid, trust]
-Code: [action, personnel, auth, factory, log, bean, form, valid, trust, validator, validate, empti, personnel, role, edit, pwd, user, random, password]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddLTAction.java
-Comments: [personnel, page, jsp, adds, empty, creates, random, password, sets, defaults, factory, creating, log, person, logged, user, event, bean, information, form, valid, trust]
-Code: [action, personnel, auth, factory, log, bean, form, valid, trust, validator, validate, empti, personnel, role, edit, pwd, user, random, password]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddOfficeVisitAction.java
-Comments: [document, office, visit, page, document, offic, jsp, adds, empty, list, visits, edit, similar, link, patient, action, author, andy, meneely, sets, defaults, factory, pid, patient, validated, superclass, base, trust, log, logging, purposes, primary, key, lists, originally, documented, returns, full, form]
-Code: [offic, visit, action, patient, base, factory, pid, trust, empti, visit, log, bean, hcp, pid, list, visits, user, auth]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddPatientAction.java
-Comments: [patient, page, jsp, adds, empty, creates, random, password, similar, link, offic, visit, action, author, andy, meneely, factory, logged, log, returns, user, table, form, valid]
-Code: [patient, action, auth, log, factory, patient, bean, form, valid, validator, validate, empti, pwd, user, role, random, password, edit]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddPHAAction.java
-Comments: [personnel, page, jsp, adds, empty, creates, random, password, similar, link, offic, visit, action, patient, sets, defaults, factory, creating, log, person, logged, author, andy, meneely, user, event, bean, information, form, valid, trust]
-Code: [action, personnel, auth, factory, log, bean, form, valid, trust, validator, validate, empti, personnel, role, edit, pwd, user, random, password]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddRemoteMonitoringDataAction.java
-Comments: [handles, adding, remote, monitoring, patient, data, database, factory, create, action, log, person, recording, patient, adds, telemedicine, weight, pedomet, reading, returns, trust]
-Code: [remot, monitor, data, action, bean, validator, auth, log, patient, factory, list, telemedicin, bean, data, rmd, form, valid, trust, validate, role, reported, user, role, equals, uap, manager, patient, representative, store, store, pid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/AddUAPAction.java
-Comments: [personnel, page, jsp, adds, empty, creates, random, password, similar, link, offic, visit, action, patient, author, andy, meneely, sets, defaults, factory, creating, log, person, logged, user, event, bean, information, form, valid, trust]
-Code: [action, personnel, auth, factory, log, bean, form, valid, trust, validator, validate, empti, personnel, role, edit, pwd, user, random, password]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ApptAction.java
-Comments: [driver, method, appointment, conflicts, jsp, files, mid, appt, returns, list, appointments, conflict, patient, hcp, user, appt, beans, users, trust]
-Code: [appt, action, patient, personnel, factory, log, list, bean, conflict, appt, mid, conflicts, patient, doctor, trust]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/base/EditOfficeVisitBaseAction.java
-Comments: [base, actions, edit, office, visits, stores, patient, visit, author, student, factory, pid, trust, initially, unsaved, hcpid]
-Code: [edit, offic, visit, base, action, hcpid, factory, pid, trust]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/base/OfficeVisitBaseAction.java
-Comments: [functionalities, common, actions, relating, inserting, editing, office, visits, patient, offic, visit, base, action, patient, page, requires, visit, pass, thrown, valid, kick, user, home, concrete, methods, created, association, unique, identifier, identifiers, verified, correctness, existence, similar, link, personnel, database, access, object, dealing, factory, supplying, runtime, context, pid, passed, trust, supplied, parameters, incorrect, problem, constructs, initially, unsaved, argument, sentinel, represent, asserts, exists, input, presumed, existing, exist, saved, raises, obtaining, converts, characters, special, equivalent, representation, explicitly, symbol, greater, newline, feed, encode, encoded]
-Code: [offic, visit, base, action, patient, factory, pid, trust, check, input, encode, valu, exists, pid, office, visit, patient, exist, number, format, number, message, unsaved, verifi, saved, perform, str, replac]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/base/PatientBaseAction.java
-Comments: [dealing, actions, require, patient, concrete, functionality, provided, asserting, correctness, existence, patients, requires, loads, edit, jsp, passed, checked, format, wrong, thrown, resulting, user, kicked, home, page, similar, link, personnel, base, action, offic, visit, subclasses, rewrite, held, strict, contract, extend, database, access, object, factory, associate, runtime, context, stores, create, pid, trust, incorrect, problem, asserts, input, valid, existing, presumed, exist, retrieves, identifier]
-Code: [patient, base, action, factory, pid, pid, trust, check, input, valu, exists, patient, exist, number, format, number, html, encoder, encode]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/base/PersonnelBaseAction.java
-Comments: [dealing, actions, require, personnel, concrete, functionality, provided, asserting, correctness, existence, requires, loads, edit, patient, jsp, passed, checked, format, wrong, thrown, resulting, user, kicked, home, page, subclasses, rewrite, held, strict, contract, extend, similar, link, patient, base, action, database, access, object, factory, associate, runtime, context, stores, create, pid, trust, incorrect, problem, asserts, input, valid, existing, presumed, exist, retrieves, identifier]
-Code: [personnel, base, action, factory, pid, pid, trust, check, input, valu, exists, personnel, exist, number, format, number, message]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ChangeSessionTimeoutAction.java
-Comments: [change, session, timeout, session, jsp, note, reflected, sessions, author, andy, meneely, sets, defualts, factory, complicated, logic, regrettably, link, access, minut, pass, number, minutes, form, greater, form, valid, returns, current, database, inactive]
-Code: [chang, session, timeout, action, access, factory, timeout, minut, form, valid, integer, minutes, valu, number, greater, mins, number, format]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ChronicDiseaseRiskAction.java
-Comments: [chronic, diseas, risks, jsp, passes, logic, link, mediator, subclasses, risk, checker, author, andy, meneely, factory, log, pid, patient, validated, trust, health, record, thrown, added, health, records, checked, avoid, normal, flow, events, returns, risk, checking, full, passed, list]
-Code: [chronic, diseas, risk, action, patient, base, auth, mediator, factory, log, pid, trust, health, record, pid, user, list, checker, risk]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/DeclareHCPAction.java
-Comments: [patient, declare, designated, edit, jsp, author, andy, meneely, sets, defaults, factory, generating, action, log, lists, declared, current, returns, list, trust, validate, hcp, str, status, message, undeclare, input]
-Code: [declar, action, patient, auth, log, factory, list, personnel, bean, trust, hcp, str, valu, user, role, user, licensed, healthcare, professional, confirm, successfully, declared, number, format, number, undeclar, input, undeclared]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/DrugInteractionAction.java
-Comments: [edit, drug, interaction, jsp, edit, information, drug, interactions, sets, defaults, factory, generating, action, method, report, description, delete, list]
-Code: [drug, interact, action, validator, log, factory, report, interaction, drug, description, trust, form, valid, equals, interactions, recorded, drugs, bean, validate, successfully, added, stack, trace, message, delet, blank, deleted, list]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditApptAction.java
-Comments: [retrieves, appointment, database, returns, match, multiple, matches, appt, bean, matching, updates, existing, appt, updated, information, message, displayed, form, valid, removes, removed]
-Code: [edit, appt, action, bean, validator, factory, log, bean, appt, list, beans, size, stack, trace, ignor, conflicts, form, valid, validate, date, timestamp, current, time, millis, scheduled, appointment, passed, conflict, hcp, warning, appointments, success, changed, message, remov, removed]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditApptTypeAction.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditApptTypeAction.java
 Comments: []
 Code: [edit, appt, type, action, bean, valid, factori, log, list, form, appoint, alreadi, exist, success, durat, els, databas, becom, corrupt, pleas, contact, administr, assist, stack, trace, messag, flag, minut, updat, doe]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditDiagnosesAction.java
 Comments: [handl, patient, diagnosi, edit, remov, author, student]
 Code: [edit, diagnos, action, extend, offic, visit, base, icd, factori, hcpid, pid, trust, list, diagnosi, bean, unsav, arrai, els, verifi, save, delet, remov]
@@ -286,117 +197,11 @@ Code: [login, failur, action, auth, addr, valid, captcha, attempt, factori, reco
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ManageHospitalAssignmentsAction.java
 Comments: [manag, assign, hospit, jsp, author, laurenhayward, factori, creat, action, log, user, list, mid, current, bean, trust, hosptial, person, messag, indic, statu, confirm, onli, patient, mention, transact, type, spec, personnel, includ, remov, design, hcp, check, doe]
 Code: [manag, hospit, assign, action, personnel, factori, log, list, bean, avail, mid, trust, valu, empti, remov, number, format, hcp, confirm, successfulli, els, occur, unassign, num, check, pid, exist, doe, messag, role]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditDiagnosesAction.java
-Comments: [handle, patients, diagnosis, edit, remove, author, student]
-Code: [edit, diagnos, action, offic, visit, base, icd, factory, hcpid, pid, trust, list, diagnosi, bean, diagnoses, unsaved, arrai, diagnosis, verifi, saved, edit, delet, remove, codes]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditHealthHistoryAction.java
-Comments: [edits, health, history, patient, edit, basic, jsp, author, laurenhayward, validated, superclass, factory, generate, action, log, user, authorizing, pid, edited, trust, returns, adds, record, pid, filled, form, added, message, information, recorded, form, valid, moves, health, interest, translated, list, records]
-Code: [edit, health, histori, action, patient, base, record, auth, log, form, validator, factory, pid, trust, user, pid, record, form, valid, validate, transfer, information, recorded, personnel, blood, pressur, integer, valu, cholesterol, tri, total, cholesterol, total, height, weight, smoker, list, records]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditImmunizationsAction.java
-Comments: [handle, immunization, patients, edit, immunizations, delete, author, student]
-Code: [edit, immun, action, offic, visit, base, procedur, cpt, factory, hcpid, pid, trust, list, bean, immunizations, unsaved, arrai, immunization, verifi, saved, edit, delet, remove, codes]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditLabProceduresAction.java
-Comments: [handles, lab, procedures, procedure, edit, remove, author, student]
-Code: [edit, lab, procedur, action, offic, visit, base, personnel, loinc, factory, hcpid, pid, trust, list, bean, procedures, unsaved, arrai, doc, procedure, verifi, saved, choose, lab, tech, assigned, equals, status, transit, auto, assign, determine, intelligent, means, techs, empty, updat, delet, remov, tech, mid, queue, size, size, priority, cbean, codes]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditMonitoringListAction.java
-Comments: [handles, adds, removes, monitoring, list, factory, create, action, log, editing, patient, current, remote, patient, permissions, array, indicating, data, allowed, enter, added, successfully, removed, returns, trust]
-Code: [edit, monitor, list, action, remot, auth, log, factory, ordered, systolic, blood, pressure, diastolic, glucose, level, weight, pedometer, reading, list, patient, telemedicin, bean, remov, data, dataset, data, pid, trust, user]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditOfficeVisitAction.java
-Comments: [edits, office, visits, patient, edit, offic, visit, jsp, exists, states, saved, unsaved, data, actions, attempted, exceptions, raised, author, laurenhayward, student, validated, factory, creating, action, log, user, authorizing, pid, performed, play, trust, create, visit, actual, update, called, attempt, save, prescriptions, procedures, lab, immunizations, diagnoses, raise, attempting, returns, bean, prescript, procedur, immun, diagnos, lab, list, hospitals, ordered, hcp, hcp, combines, lists, assigned, combined, updates, information, form, passed, calling, method, make, success, message, form, valid, helper, logs, event, automatically, included, trans, transaction, type, log, incident, report, sends, mail, prescribed, dangerous, drug, prescription, made, pat, problem, allergy, interaction, filled, reinitialize]
-Code: [edit, offic, visit, action, base, validator, personnel, hospit, patient, pat, prescript, procedur, immun, diagnos, lab, instruct, referr, event, log, factory, pid, trust, pid, pars, reiniti, actions, unsaved, initalize, visit, present, bean, prescriptions, procedures, immunizations, diagnoses, instructions, referrals, list, hospitals, hcp, hcpid, combin, lists, hos, updat, information, form, incident, form, valid, confirm, success, stack, trace, message, event, transact, type, trans, office, incid, report, report, email, make, email, app, problem, patient, reply, itrust, arrays, subject, prescribed, potentially, dangerous, medication, body, format, allergic, interaction, drug, taking, validate, notes, date, str, date, valu, update]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditPatientAction.java
-Comments: [edits, patient, edit, jsp, author, laurenhayward, validates, factory, create, action, log, user, authorizing, pid, edited, trust, takes, information, patient, bean, updates, form, valid, returns, creates, mail, inform, updated, email, notice]
-Code: [edit, patient, action, base, validator, personnel, log, email, util, emailutil, factory, pid, trust, updat, information, bean, form, valid, pid, security, reasons, validate, patient, send, email, make, list, reps, representing, addrs, arrai, reply, itrust, personal, representative, subject, format, updated, body, dear, full, record, login, trust, viewed, records, history, histori, employe, mid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditPatientInstructionsAction.java
-Comments: [edit, delete, patient, instructions, office, visit, creates, edit, patient, instruct, action, existing, factory, hcpid, pid, trust, existent, methods, exceptions, built, list, bean, modify, instruction, verify, contents, check, form, valid]
-Code: [edit, patient, instruct, action, offic, visit, base, factory, hcpid, pid, trust, list, bean, instructions, unsaved, arrai, verifi, saved, edit, delet, remove, validate, form, valid, bean, validator]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditPersonnelAction.java
-Comments: [edits, designated, personnel, admin, edit, jsp, staff, demographics, author, laurenhayward, validates, patient, factory, create, action, log, user, editing, pid, edited, trust, takes, information, personnel, form, updates, bean, form, valid]
-Code: [edit, personnel, action, base, auth, validator, factory, log, pid, trust, pidlong, pars, role, editor, user, editing, edit, demographics, authorized, record, updat, information, bean, form, form, valid, pid, validate, personnel]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditPHRAction.java
-Comments: [edits, patient, health, record, edit, jsp, author, laurenhayward, validates, factory, creating, action, log, logged, user, authorizing, pid, personal, records, added, trust, health, record, adds, allergy, message, list, invalid, fields, description, adding, loop, checks, conflicts, runs, prescription, bean, conflict, returns, patient, allergi, beans, famili, member, offic, visit, complete, diseases, risk, risk, checkers, family, member, high, blood, pressure, check, cholesterol, diabetes, cancer, heart, disease, smokes, dead, death, creates, fake, mail, notify, altered]
-Code: [edit, action, patient, base, factory, allergi, famili, health, record, offic, visit, icd, procedur, proc, chronic, diseas, mediator, personnel, bean, patient, email, util, emailutil, ndcode, log, pid, trust, personnel, pid, updat, allergies, ndcode, form, valid, description, bean, validator, abv, validate, list, current, equals, allergy, added, send, email, make, prescript, current, prescriptions, size, medication, prescribed, loop, successful, reach, member, family, fam, arrai, parents, siblings, children, grandparents, parent, mid, relation, grandparent, record, records, visits, complet, visit, procedures, risk, checker, risk, doe, high, member, blood, pressur, systolic, diastolic, cholesterol, cholesterol, diabetes, diagnosi, diagnoses, diag, start, cancer, heart, disease, smoker, caus, death, reps, representing, addrs, reply, itrust, personal, representative, subject, format, medical, altered, body, health, care, professional, full, designated, professionals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditPrescriptionsAction.java
-Comments: [edits, patient, prescription, information, hcp, uap, edit, jsp, author, ben, smith, creates, action, initializing, office, visit, database, access, object, factory, trust, part, saved, attempts, modify, exceptions, obtain, prescript, argument, automatically, offic, visit, hcpid, pid, checks, bean, interactions, allergies, legal, values, pres, valid, allergy, interaction, returns, suitable, user, warning, message, drug, detected, previously, prescribed, prescriptions, list, messages, empty, allergic, warnings, warn, existing, unsaved, changed, delete, medications, called, validates, form, converts, convert, instructions, field, equals, validation, fail, form, valid, fake, mail, notify, records, altered]
-Code: [java, text, pars, util, date, edit, prescript, action, offic, visit, base, validator, med, drug, interact, report, rpt, allergi, patient, email, personnel, overrid, event, log, factory, hcpid, pid, trust, init, check, interactions, bean, pres, list, warnings, interaction, allergy, empty, patient, pid, hcp, personnel, event, transact, type, medication, reasons, valid, send, email, make, warn, equals, instructions, field, required, size, format, warning, prescription, start, simpl, date, format, yyyy, end, prescribed, start, end, description, found, arrai, needed, startdate, enddate, drug, replac, bean, stack, trace, message, allergies, medic, aspirin, verifi, saved, edit, prescriptions, unsaved, reason, reason, pre, delet, remove, medications, codes, form, form, validate, med, dosage, integer, valu, str, addrs, health, care, professional, full, reply, itrust, personal, representative, subject, body]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditProceduresAction.java
-Comments: [edit, patiens, procedure, action, author, student, aurhor, factory, hcpid, pid, trust]
-Code: [edit, procedur, action, offic, visit, base, cpt, factory, hcpid, pid, trust, list, bean, procedures, unsaved, arrai, med, procedure, verifi, saved, edit, delet, remove, codes]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditReferralsAction.java
-Comments: [creating, editing, referrals, office, visit, author, student, list, referr, beans, specific, referral, desired, bean, database, trust, edit, existing, edit, delete, delet, patient, receiving]
-Code: [edit, referr, action, offic, visit, base, patient, personnel, factory, hcpid, pid, trust, list, bean, referrals, unsaved, arrai, referral, verifi, saved, remov, receiv]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditRepresentativesAction.java
-Comments: [edits, patient, personal, representatives, hcp, edit, jsp, author, laurenhayward, validates, mid, factory, creating, action, log, editing, pid, representative, question, trust, list, patients, pid, represents, personnel, representees, patient, beans, makes, represent, input, parameter, person, represented, representee, message, longer]
-Code: [edit, repres, action, patient, base, auth, factory, log, pid, trust, list, bean, represented, pid, representative, representee, valu, user, role, user, patient, represent, confirm, change, made, number, format, number, remov, input]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EditSingleReferralAction.java
-Comments: [creating, editing, deleting, single, referral, author, student, specific, database, bean, edit, existing, trust, delete, patient, receiving, send, messages, users, canceling]
-Code: [edit, singl, referr, action, patient, personnel, offic, visit, send, messag, hcpid, factory, trust, bean, referral, sender, referrals, current, creat, messages, edited, delet, deleted, remov, cancel, receiv, specialty, personnel, date, visit, ovid, date, str, builder, body, append, information, sending, receiving, patient, notes, details, created, time, stamp, msg, subject, read, message, received, reproduced, convienence, cancelled]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EmergencyReportAction.java
-Comments: [creates, emergency, report, emerg, jsp, author, laurenhayward, handles, validating, pid, logs, viewing, factory, creating, action, log, user, pid, patient, generated, trust, returns, full, age, gender, contact, blood, type, list, allergies, allergi, beans, prescriptions, taking, prescript, diagnoses, range, diagnosi, equals, bean, classification, ovb, visit, date, time, calendar, instance, time, millis, fake, mail, notify, created, viewed]
-Code: [emerg, report, action, patient, base, allergi, offic, visit, bean, email, util, emailutil, factory, log, pid, trust, patient, pid, send, email, make, age, integer, gender, contact, phone, blood, type, list, allergies, prescript, current, prescriptions, arrai, warn, size, alerts, alert, medication, diagnosi, diagnoses, dup, ovb, visit, wbean, description, equals, dbe, message, procedur, immunizations, immun, procedures, reps, representing, addrs, reply, itrust, personal, representative, subject, format, emergency, report, viewed, notification, body, dear, full, generated, login, trust, records]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/EventLoggingAction.java
-Comments: [handles, retrieving, log, record, accesses, user, view, access, jsp, author, laurenhayward, factory, create, action, log, person, logs, transaction, info, meaning, secondari, depending, type, link, transact, representing, logged, typically, acted, note, subtransaction, specifics, posterity]
-Code: [event, log, action, transact, tran, factory, event, type, secondari, info, transaction]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/GenerateCalendarAction.java
-Comments: [action, calendar, jsp, author, software, engineering, team, project, zephyr, defaults, factory, create, log, user, viewing, send, request, appoint, bean, check, appointments, appearing, conflicts, array, method, determine, bold, items, conflict, appt, type, type, duration, creates, table, displayed, month, year, viewed, thi, rendered, hashtable, beans, office, visits, offic, visit, lab, procedures, lab, procedur]
-Code: [gener, calendar, action, view, appt, record, list, bean, send, type, factory, log, arrai, conflicts, size, date, time, timestamp, hashtable, integer, table, thi, month, year, appts, appointments, atable, calendar, instance, time, millis, key, put, offic, visit, trust, visits, rtable, lab, procedur, procs, labs, ptable]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/GetUserNameAction.java
-Comments: [handles, person, mid, user, jsp, author, laurenhayward, defaults, factory, creating, action, returns, matches, input, trust]
-Code: [user, action, factory, input, trust, mid, valu, auth, number, format, correct, form]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/GetVisitRemindersAction.java
-Comments: [visit, reminders, patient, jsp, author, laurenhayward, reminder, type, enumeration, remind, passed, returns, begin, action, defaults, factory, create, log, person, logged, trust, list, forms, form, valid, immunizations, mid, patients, checked, people, visit, checks, pid, lacking, schedule, immunization, count, patient, age, weeks, time, date, procedure, reason, including, required, hepatits, current, varicella, measles, mumps, rubekka, polio, pneumococcal, dose, haemophilus, infulenzae, diphtheria, tetanus, pertussis, rotavirus, hepatitis, cal, calendar]
-Code: [visit, remind, action, type, diagnosed, care, needers, flu, shot, immunization, type, map, values, put, patient, log, factory, trust, list, form, reminders, form, valid, reminder, diagnos, strip, dupes, flu, shot, delinquents, immun, mid, arrai, reason, patients, designate, check, immunizations, length, flag, pid, procedur, bean, procs, procedures, patient, age, weeks, date, date, birth, gender, gen, hep, time, rota, rota, diptet, deptet, haemoflu, haemoflu, time, pneumo, pneumo, pneumoflu, polio, polio, measles, measl, varicella, varicella, hpv, hpv, proc, cpt, hep, equals, rotavirus, diptheria, tetanus, pertussis, haemophilus, influenza, pneumococcal, poliovirus, mumps, rubella, human, papillomaavirus, test, virus, dip, tet, haemo, female, substring, count, calendar, instance, millis, older, papillomavirus, years, months, hepatits, rubekka, dose, dose, influenzae, diphtheria, hepatitis, month, end, start, cal, compar]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/GroupReportAction.java
-Comments: [factory, filters, patient, filter, type]
-Code: [group, report, action, patient, allergi, famili, offic, visit, factory, bean, gener, report, list, filter, filters, patients, comprehens, demograph, info, patient, filter, type, gender, email, street, address, city, state, zip, phone, emerg, member, parents, parent, children, child, siblings, sibling, medic, allergies, allergy, prescript, prescriptions, current, prescription, medication, formatted, diagnosi, diagnoses, diagnosis, visits, visit, date, str, procedur, procedures, procedure, personnel, dlhcps, declar, dlhcp, full]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/LabProcHCPAction.java
-Comments: [action, lab, proc, jsp, sets, defaults, factory, create, log, logged, method, sorts, returns, list, sort, sorted, lab, procedures, month, privacy, settings, procedure, change, checks, made, generate, links, page, edit, offic, visit, check]
-Code: [lab, proc, action, procedur, offic, visit, log, validator, factory, list, bean, sort, month, list, proc, arrai, empty, chang, privacy, form, valid, procedure, check, access, rights, equals, restrict, validate, updat, ovbean, visit, hcp, pend, count, view, procedures]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/LabProcLTAction.java
-Comments: [lab, proc, jsp, handles, lab, procedures, setup, factory, create, action, log, logged]
-Code: [lab, proc, action, procedur, offic, visit, personnel, person, log, factory, list, bean, view, transit, procedures, tech, receiv, test, procedure, ovid, trust, visit, hcp, submit, results, numer, result, unit, upper, bound, lower, form, valid, pars, result, number, format, stack, trace, received, testing]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/LabProcUAPAction.java
-Comments: [lab, proc, jsp, handles, lab, procedures, setup, factory, create, action, log, logged, updates, procedure, update, form, valid, sends, mail, informing, patient, updated, notice, returns, list, viewing, pid]
-Code: [lab, proc, action, procedur, log, validator, factory, transact, updat, procedure, bean, form, valid, validate, check, status, changed, send, email, equals, email, util, send, make, patient, patient, pid, reply, itrust, list, arrays, subject, lab, updated, body, format, dear, log, trust, view, full, loinc, view, procedures, date]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/LoginFailureAction.java
-Comments: [note, mitigation, denial, service, attacks, track, password, failure, attempts, user, account, easily, spoofable, addresses, reason, feature, implemented, limitation, tomcat, authentication, technically, fault, form, lockout, application, container, support, options, implement, yuck, extend, realm, source, logic, looked, pretty, easy, buried, jar, installation, educational, learn, webapps, feel, free, change, extending, perfectly, acceptable, author, andy, defaults, factory, create, action, addr, address, making, login, attempt, calls, auth, record, database, message, checks, current, failures, valid]
-Code: [login, failur, action, auth, addr, valid, captcha, attempts, factory, record, failure, failures, login, failed, attempt, stack, trace, message, err, denying, access, due, reset, val, count]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ManageHospitalAssignmentsAction.java
-Comments: [manages, assignment, hospitals, hospit, assignments, jsp, author, laurenhayward, defaults, factory, create, action, log, user, managing, returns, list, mid, assigned, mid, beans, trust, hosptial, assigns, hospital, person, message, indicating, status, confirm, patient, mentioned, transaction, type, spec, personnel, included, removes, designated, removed, hcp, checks, hcp, checked, check]
-Code: [manag, hospit, assign, action, personnel, factory, log, list, bean, avail, hospitals, mid, trust, mid, valu, empty, remove, number, format, number, hospital, hcp, confirm, successfully, assigned, assignment, occur, remov, unassigned, num, assignments, check, pid, exists, exist, message, personnel, role, equals]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/messages.properties
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/messages.properties
 Comments: []
 Code: [view, prescript, record, action, undesign, personnel, access, inform, pleas, log, trust, renew, patient, exist, number, offic, visit, repres, contact, represente, valid]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/MonitorAdverseEventAction.java
 Comments: [view, report, advers, event, factori, log, list, specifi, date, prescript, immun, start, end, trust, form, valid, pars, patient, send, mail, request, inform, receiv, messag, test, purpos, method, remov]
 Code: [monitor, advers, event, action, log, email, patient, send, messag, messeng, factori, list, bean, report, prescript, start, end, trust, form, valid, pars, perscript, els, immun, longer, exist, valu, arrai, receiv, mail, bodi, remov, drug, perscrib, descript, subject]
@@ -460,81 +265,15 @@ Code: [updat, list, action, medic, bean, valid, factori, perform, med, form, suc
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateReasonCodeListAction.java
 Comments: [handl, updat, reason, list, edit, jsp, nation, drug, univers, product, identifi, unit, state, intend, human, http, ama, assn, factori, creat, action, perform, user, prescript, orc, statu, messag, form, valid, inform, bean, hold, alreadi]
 Code: [updat, reason, list, action, drug, reaction, orc, bean, valid, factori, perform, form, success, descript, els, databas, becom, corrupt, pleas, contact, administr, assist, stack, trace, messag, trust, inform, row, found]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/MonitorAdverseEventAction.java
-Comments: [view, reported, adverse, events, factory, log, returns, list, reports, dates, prescription, prescriptions, immunizations, start, starting, date, end, ending, trust, form, valid, pars, patient, sends, mail, requesting, information, patient, receive, message, testing, purposes, method, remove, event, report, removed]
-Code: [monitor, advers, event, action, log, email, util, emailer, patient, send, messag, messenger, factory, list, bean, reports, prescription, start, end, trust, form, valid, pars, perscriptions, immunization, immunizations, patient, longer, exists, email, message, arrai, receiver, mail, body, remove, report, remov, bean, adverse, event, drug, perscribed, description, removed, subject]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/MyDiagnosisAction.java
-Comments: [edits, privacy, levels, diagnoses, jsp, author, laurenhayward, defaults, factory, create, action, log, user, trust, returns, list, diagnosi, beans, patient, diagnosis, icdcode, interest, prescriptions, hcpid, prescription, java, util, prescript, made, checks, experience, compares, patients]
-Code: [diagnosi, action, offic, visit, patient, personnel, survei, lab, procedur, labproc, prescript, log, factory, trust, list, bean, diagnoses, diagnosis, icdcode, med, match, map, hcp, diag, beans, check, patient, locality, based, digits, zip, substring, equals, personnel, visit, key, prescriptions, office, medic, mlist, medication, description, lab, procedures, labprocs, lpbeans, doc, completed, survey, data, sat, satisfaction, treatment, multiple, times, put, num, patients, arrai, values, collections, sort, bean, comparator, hcpid, ovs, size, ovid, serial, version, compare, ret]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/PrescriptionReportAction.java
-Comments: [handles, prescription, reports, pid, hcp, uap, prescript, report, jsp, view, record, patient, author, laurenhayward, validates, pid, factory, create, action, log, user, making, question, trust, health, record, takes, representee, returns, represents, input, mid, list, office, visits, offic, visit, beans, passes, map, html, form, report, params, java, util, parameter, patient, bean, url, pull, parameters, form, valid, checks, arrai, integers, builds, query, offsets]
-Code: [prescript, report, action, patient, base, representing, offic, visit, log, factory, pid, trust, health, record, repres, patient, input, reppe, valu, represents, pid, represent, number, format, number, list, bean, visits, reports, map, params, paramet, util, convert, arrai, size, offset, integer, skip, suppress, warnings, rawtypes, queri, form, valid, offsets, check, build, rep, equals, str]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ProfilePhotoAction.java
-Comments: [max, file, size, maximum, file, uploads, bytes, processes, multipart, reqeuest, parses, image, storing, database, request, method, calls, profil, photo, remove, handles, exceptions, appropriately, mid]
-Code: [profil, photo, action, log, servlet, file, upload, factory, disk, item, unit, testing, purposes, store, picture, http, request, multipart, content, list, items, pars, iterator, item, process, field, form, buffer, image, imag, read, input, stream, validation, uploading, size, max, trust, file, store, stored, successfully, upload, stack, trace, message, err, multi, part, remov, photo, mid, removed, displaying, removing]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ReportAdverseEventAction.java
-Comments: [send, mails, method, sends, mail, list, adverse, events, event, beans, acted, testing, purposes, single, immunizations, bean, email, returns, report, data, base, trust, form, valid, reference, emailer, send]
-Code: [report, advers, event, action, log, email, util, emailer, patient, personnel, hcp, validator, factory, pars, email, send, mails, list, bean, trust, form, valid, dlist, arrai, beaner, desc, drug, description, beano, prescriber, num, message, patient, reported, adverse, event, equals, noreply, itrust, sender, receiver, personnel, subject, format, report, prescription, body, mail, immunization, validate, stack, trace, sender, full]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ResetPasswordAction.java
-Comments: [manages, resetting, password, reset, jsp, author, laurenhayward, defaults, factory, create, action, checks, user, exists, mid, mid, check, exist, number, reset, attempts, exceeded, address, greater, matches, role, checked, match, trust, answer, security, returns, question, thrown, resets, trust, answers, confirm, addr, request, coming, status, message, form, valid, creates, sends, mail, change, changed, mial, make, correctly, entered, confirmation]
-Code: [reset, password, action, auth, patient, factory, check, mid, mid, valu, user, exists, number, format, max, address, failures, role, trust, patient, equals, hcp, uap, pha, stack, trace, answer, answer, secur, question, security, user, password, confirm, addr, form, valid, parse, illeg, argument, invalid, changed, mismatch, retries, email, util, send, email, make, app, record, failure, match, validation, bean, reply, itrust, list, arrays, subject, trust, body, format, dear, chosen, change, full, admin, personnel, personnel, empty, passwords, matcher, matches, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/SearchUsersAction.java
-Comments: [defaults, factory, create, action, log, user, performing, search, searches, personnel, parameter, list, searched, java, util, personnel, beans, users, matched, patients, parameters, patient, patient]
-Code: [search, user, action, patient, personnel, factory, log, list, bean, equals, stack, trace, fuzzi, patients, query, subqueries, tree, length, split, mid, valu, patient, number, format, results, retain, pointer, arrai]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/SendMessageAction.java
-Comments: [send, message, jsp, sets, defaults, factory, create, action, log, user, sending, sends, bean, trust, returns, patient, mid, personnel, list, patients, logged, represents, designated]
-Code: [send, messag, action, log, email, util, emailer, patient, personnel, mail, validator, val, mess, factory, message, bean, trust, form, valid, validate, email, sender, noreply, itrust, list, arrai, sender, personnel, receiver, full, body, format, received, trust, view, http, localhost, auth, hcp, inbox, jsp, log, username, password, patient, subject, mid, representees, represented, stack, trace, pid, dlhcps, declar]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/SetSecurityQuestionAction.java
-Comments: [handles, setting, retrieving, security, questions, answers, users, patient, edit, demographics, jsp, staff, personnell, author, laurenhayward, sets, defaults, factory, create, action, log, user, question, trust, updates, information, database, held, secur, bean, passed, question, holds, returns, holding, info, logged, mid, checks, make, exists, trust, check, valid]
-Code: [secur, question, action, auth, log, factory, trust, check, updat, information, validator, sqav, validate, answer, question, retriev, ret, mid, user, exists, user]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/SurveyAction.java
-Comments: [patient, survey, data, database, office, visit, linked, added, transaction, logged, sets, defaults, factory, create, action, log, user, taking, pass, offic, vist, bean, survei, visit]
-Code: [survei, action, offic, visit, log, factory, survey, bean, visit, complet, calendar, instance, time, patient, number, format]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateCPTCodeListAction.java
-Comments: [updates, medical, procedures, list, edit, procedur, codes, jsp, accurately, describes, surgical, diagnostic, services, designed, communicate, uniform, information, physicians, coders, patients, accreditation, organizations, payers, administrative, financial, analytical, purposes, http, www, ama, assn, org, pub, physician, resources, solutions, managing, practice, coding, billing, insurance, cpt, shtml, author, laurenhayward, factory, create, action, log, administrator, updating, adds, med, procedure, proc, bean, holds, status, message, form, valid, updated]
-Code: [updat, list, action, cpt, procedur, bean, validator, factory, log, bean, proc, form, valid, validate, success, description, added, database, corrupt, contact, administrator, assistance, stack, trace, message, trust, information, rows, found, edit, actual, change, row, updated]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateHospitalListAction.java
-Comments: [handles, updating, list, hospitals, hospit, listing, jsp, author, laurenhayward, factory, create, action, perform, person, adds, hosptial, bean, passed, hosp, hospital, status, message, form, valid, updates, based, information, updated]
-Code: [updat, hospit, list, action, hosp, factory, perform, hospital, bean, hosp, form, valid, bean, validator, validate, success, added, database, corrupt, contact, administrator, assistance, stack, trace, message, trust, information, rows, found, row, updated]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateICDCodeListAction.java
-Comments: [handles, updating, diagnosis, list, edit, codes, jsp, international, statistical, classification, diseases, related, health, problems, commonly, abbreviation, classify, wide, variety, signs, symptoms, abnormal, findings, complaints, social, circumstances, external, injury, disease, http, www, cdc, gov, nchs, icd, htm, author, laurenhayward, factory, create, action, perform, person, udpating, adds, based, diagnosi, bean, passed, diagn, status, message, form, valid, updates, information, update]
-Code: [updat, list, action, icd, diagnosi, bean, validator, factory, perform, bean, diagn, form, valid, validate, success, description, added, database, corrupt, contact, administrator, assistance, stack, trace, message, trust, information, rows, found, row, updated]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateLOINCListAction.java
-Comments: [handles, updating, logical, observation, identifiers, names, codes, database, universal, standard, identifying, medical, laboratory, observations, http, loinc, org, sets, defaults, factory, create, action, adds, diagn, status, message, form, valid, updates, information, update, bean, info, array, data, bean, cbean, created, reads, file, line, valid, input, stream, parse, ignor, dup, existing, updated, exists, list, messages, parsing, lab, reg]
-Code: [updat, list, action, bean, validator, factory, cbean, diagn, form, valid, trust, validate, list, lblist, procedures, lab, procedur, empty, exists, success, added, information, rows, update, found, updated, stack, trace, message, creat, bean, info, length, component, kind, property, time, aspect, scale, type, method, pars, file, input, stream, data, ignor, dup, arrai, results, buffer, reader, buf, stream, line, line, inserted, data, skipped, lnum, match, starting, pattern, req, compile, reg, read, matcher, req, start, processed, find, split, tabs, parts, equals, field, fields, surrounded, quotes, wrong, bad, quotation, marks, strip, substring, duplicate, res, report, treat, differently, changed, files, invalid, didnt, existing, lines, detected, user, successfully]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateNDCodeListAction.java
-Comments: [handles, updating, prescription, list, edit, codes, jsp, national, drug, universal, product, identifier, united, states, drugs, intended, human, http, www, fda, gov, inform, ucm, htm, author, laurenhayward, defaults, factory, create, action, perform, user, lists, adds, med, added, status, message, form, valid, updates, information, medic, bean, holds, medication, validated, removes, removed]
-Code: [updat, list, action, medic, bean, validator, factory, perform, bean, med, form, valid, validate, success, description, added, database, corrupt, contact, administrator, assistance, stack, trace, message, trust, information, rows, found, row, updated, remov, drug, exist, removed]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/UpdateReasonCodeListAction.java
-Comments: [handles, updating, reason, codes, list, edit, reason, jsp, national, drug, universal, product, identifier, united, states, drugs, intended, human, http, archinte, ama, assn, org, cgi, content, full, defaults, factory, create, action, perform, user, lists, adds, prescription, orc, added, status, message, form, valid, updates, information, overrid, bean, holds, validated]
-Code: [updat, reason, list, action, drug, reaction, overrid, orc, bean, validator, factory, perform, bean, orc, form, valid, validate, success, description, added, database, corrupt, contact, administrator, assistance, stack, trace, message, trust, information, rows, found, row, updated]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewAdverseEventAction.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewAdverseEventAction.java
 Comments: []
 Code: [view, advers, event, action, factori, bean, report, list, unremov]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewApptRequestsAction.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewApptRequestsAction.java
 Comments: []
 Code: [view, appt, request, action, hcpid, send, messag, msg, personnel, factori, list, bean, req, accept, pend, updat, schedul, construct, appoint, select, els, alreadi, act, reject, trust, form, valid, hcp, patient, subject, date, timestamp, current, time, milli, bodi]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewDiagnosisStatisticsAction.java
 Comments: [view, diagnosi, statist, page, list, diagnos, specifi, zip, date, rang, author, student, databas, access, method, inform, malaria, influenza, action, initi, field, factori, session, trust, bean, correl, count, local, region, input, lower, begin, time, upper, end, icd, examin, form, valid, week, calcul, prior, averag, start, analyz, area, threshold, previou, pars, auto, gener, block, earliest, incid, year, determin, epidem, happen, cur, current, evalu, cal, calendar, number, flu, math, sin, total, avg]
 Code: [view, diagnosi, statist, action, icd, diagnos, factori, list, bean, trust, lower, date, upper, zip, form, valid, simpl, format, yyyi, pars, start, befor, end, match, digit, diag, count, enter, arrai, epidem, threshold, integ, number, week, avg, calendar, cal, instanc, find, earliest, incid, time, ret, region, size, stat, flu, cur, doubl, calc, els, malaria, current, total, data]
@@ -602,81 +341,11 @@ Code: [view, prescript, record, action, patient, personnel, email, log, factori,
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPrescriptionRenewalNeedsAction.java
 Comments: [action, list, patient, special, diagnosi, histori, log, medic, expir, dai, factori, creat, person, view, prescript, renew, helper, bean]
 Code: [view, prescript, renew, action, patient, log, factori, list, bean, messag]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewDiagnosisStatisticsAction.java
-Comments: [view, diagnosis, statistics, page, list, diagnoses, zip, date, range, author, student, database, access, methods, codes, information, malaria, influenza, action, initializes, fields, factory, session, trust, returns, beans, diagnosi, correlating, trust, counts, local, regional, input, lower, beginning, time, upper, ending, icd, examine, bean, form, valid, week, calculates, prior, average, start, analyze, area, threshold, previous, averages, determines, epidemic, happening, cur, date, str, evaluated, pars, cal, calendar, week, number, year, flu, cases, math, sin, cos, threshold, total, avg, total, avg]
-Code: [view, diagnosi, statist, action, icd, diagnos, factory, list, bean, codes, trust, statistics, lower, date, upper, zip, form, valid, lower, simpl, date, format, yyyy, parse, upper, start, end, matches, digits, diag, equals, valid, diagnosis, counts, pars, enter, dates, arrai, epidem, start, threshold, integer, number, format, parsed, auto, generated, block, week, count, week, avg, calendar, cal, instance, find, earliest, incident, earliest, time, ret, year, avg, region, size, zip, stats, region, flu, epidemic, cur, str, calc, threshold, number, malaria, list, current, total, total, find, malaria, data]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewExpiredPrescriptionsAction.java
-Comments: [handles, retrieving, beans, view, prescript, records, jsp, author, laurenhayward, defaults, factory, create, action, log, person, viewing, expired, prescriptions, patient, bean, patient, trust, logged, representees, list, holding, returns, prescribing, prescription, item, question, prescribed]
-Code: [view, expir, prescript, action, patient, personnel, email, util, emailer, log, factory, bean, patient, trust, list, representees, represented, prescrib, doctor, prescription, prescriptions, arrai, email, representatives, representing, representative, dlhcps, declar, dlhcp, uaps, uap, noreply, itrust, subject, undesignated, personnel, accessed, records, body, information, log, trust, send]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewHelperAction.java
-Comments: [edits, designated, personnel, admin, edit, jsp, staff, demographics, author, laurenhayward, red, ratio, prime, green, blue]
-Code: [view, helper, action, calcul, color, primari, secondari, ratio, prime, red, integer, pars, substring, green, blue, format]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyAccessLogAction.java
-Comments: [handles, retrieving, log, record, accesses, user, view, access, jsp, author, laurenhayward, factory, create, action, log, person, logs, returns, list, transact, beans, dates, passed, params, lower, date, upper, form, valid, transaction, empty, today, java, util, representing, storing, access, representation, patients, pid, represents, personnel, representees, patient, trust]
-Code: [view, access, log, action, transact, tran, patient, factory, list, bean, accesses, lower, date, upper, role, trust, form, valid, stores, log, entries, personnel, dlhcps, medical, dependents, signed, user, selected, access, relatives, represented, mid, pars, declar, mid, scope, form, shown, view, exists, filtered, results, dlhcp, empty, record, lower, simpl, date, format, yyyy, parse, upper, start, end, enter, dates, start, size, time, logged, time, end, pid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyApptsAction.java
-Comments: [user, appointments, mid, list]
-Code: [view, appt, action, log, factory, list, bean, appointments]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyLabProceduresAction.java
-Comments: [number, unviewed, lab, procedures, current, user]
-Code: [view, lab, procedur, action, patient, factory, log, list, bean, procedures, unview, count, patient]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyMessagesAction.java
-Comments: [action, view, messages, jsp, defaults, factory, create, log, user, viewing, logged, list, sorts, ascending, time, names, order, descending, based, filter, criteria, messag, beans, meet, trust, pars, check, sender, field, exclude, bean, match, requested, subject, body, message, words, start, date, end, eliminated, fields, patient, mid, personnel, state, read, number, unread, current]
-Code: [view, messag, action, log, patient, personnel, referr, factory, list, bean, messages, time, ascending, descending, filter, filter, trust, pars, filtered, arrai, split, equals, ignor, subject, lower, body, date, format, simpl, yyyy, date, parse, calendar, instance, time, mid, read, updat, auto, generated, block, stack, trace, unread, count, link, referral, message, ref]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyRecordsAction.java
-Comments: [handles, patients, viewing, records, view, jsp, author, laurenhayward, factory, create, action, log, person, takes, patient, representee, returns, represents, input, mid, trust, patient, bean, logged, requested, personnel, list, allergi, beans, parents, siblings, children, famili, member, grand, health, family, member, offic, visit, office, visits, complete, survey, created, visit, question, completed, lab, procedures, report, requests, checks, members, high, blood, pressure, risk, factor, cholesterol, diabetes, cancer, heart, disease, smoke, dead, death]
-Code: [view, record, action, patient, personnel, allergi, famili, health, offic, visit, survei, lab, procedur, fake, email, icd, report, request, proc, loinc, log, factory, list, cbean, procedures, repres, patient, input, trust, reppe, valu, represents, represent, number, format, number, bean, mid, personnel, email, history, person, allergies, member, family, fam, arrai, parents, siblings, children, message, grandparents, parent, relation, grandparent, record, records, visits, complet, visit, represented, representing, completed, labs, specif, viewed, procs, mark, requests, doe, high, member, size, blood, pressur, systolic, diastolic, cholesterol, cholesterol, diabetes, diagnosi, diagnoses, diag, start, cancer, heart, disease, smoker, caus, death, description]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyRemoteMonitoringListAction.java
-Comments: [handles, retrieving, patient, data, view, telemedicin, jsp, factory, create, action, log, returns, list, remot, monitor, data, beans, logged, transact, form, valid, based, type, patient, trust, figure, monitoring]
-Code: [view, remot, monitor, list, action, auth, log, factory, list, data, bean, patient, data, date, start, end, form, valid, lower, upper, simpl, date, format, yyyy, parse, start, end, pars, enter, dates, type, types, weight, systol, blood, pressure, diastol, glucos, level, pedomet, reading, valid, equals, input, telemedicine, logging, pid, trust, user, personnel]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewMyReportRequestsAction.java
-Comments: [action, view, reports, jsp, user, factory, create, log, person, viewing, report, requests, returns, logged, list, trust, adds, request, patient, patient, approves, mail, approved, sends, admin, admin, hcp, pid, rejects, rejected, comment, requested, sets, viewed, status]
-Code: [view, report, request, action, log, personnel, factory, list, bean, requester, trust, requests, request, patient, calendar, instance, time, approv, email, util, send, email, make, app, admin, hcp, pid, patient, reply, itrust, arrays, subject, report, generated, trust, body, format, dear, health, care, provider, submitted, view, full, medical, records, administrator, approved, viewing, notified, chooses, full, reject, comment, viewed, chosen, viewable, longer, status, builder, equals, requested, personnel, append, date, unknown, removed, caused, unit, test, fail, purpose]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewOfficeVisitAction.java
-Comments: [handles, viewing, office, visits, prescriptions, view, offic, visit, jsp, author, laurenhayward, validating, log, mid, factory, create, action, person, unique, identifier, trust, pid, representing, patient, rep, representative, records, returns, visit, bean, initially, passed, list, prescript, beans, hcp]
-Code: [view, offic, visit, action, base, prescript, procedur, lab, diagnos, personnel, patient, factory, log, trust, valu, rep, check, represented, repee, represents, messages, number, format, bean, visit, list, prescriptions, procedures, med, immunizations, immun, diagnosi, diagnoses, viewed, procs, patient, mark, hcp, stack, trace, message]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPatientInstructionsAction.java
-Comments: [patient, view, specific, instructions, construct, view, patient, instruct, action, factory, pid, trust, office, visits, list, visit, beans, vsiit, ovid, check, map, lookup, names, ids]
-Code: [view, patient, instruct, action, base, personnel, offic, visit, factory, pid, trust, list, bean, instructions, pid, visit, ovid, map, lookup, ovisits, visits, ovisit, key, hcp, put]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPatientOfficeVisitHistoryAction.java
-Comments: [action, view, patient, offic, visit, history, jsp, defaults, factory, create, log, person, viewing, office, visits, adds, logged, list, trust, checks, patient, check, date, visit, patients, returns, personnel, bean]
-Code: [view, patient, offic, visit, histori, action, log, personnel, officevisit, arrai, list, bean, visits, factory, process, trust, ovlist, iterator, patient, full, date, date, str, scanner, delimiter, month, day, year, address, street, city, state, zip, dbe, message, equals, compar, patients, personnel]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPatientReferralsAction.java
-Comments: [action, sits, methods, facilitate, functionality, view, patient, referrals, jsp, patient, sorted, field, direction, pseudo, sort, dir, method, returns, number, messages, read, referral, bean, updates, expression, testability, office, visit, purpose, related, date]
-Code: [view, patient, referr, action, offic, visit, factory, trust, list, verbos, bean, referrals, field, sort, direction, dir, query, unread, size, referral, updat, edit, message, messag, date, visit]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPersonnelAction.java
-Comments: [handles, retrieving, personnel, beans, view, jsp, author, laurenhayward, defaults, factory, create, action, log, person, retrieves, personnel, bean, mid, passed, input, returned, trust, returns, patient, logged]
-Code: [view, personnel, action, fake, email, log, factory, bean, personnel, input, trust, mid, valu, messages, number, format, stack, trace, list, email, history, person]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPrescriptionRecordsAction.java
-Comments: [handles, retrieving, beans, view, prescript, records, jsp, author, laurenhayward, defaults, factory, create, action, log, person, viewing, prescription, patient, bean, patient, trust, logged, representees, list, holding, returns, prescribing, item, question, prescribed, prescriptions]
-Code: [view, prescript, record, action, patient, personnel, email, util, emailer, log, factory, bean, patient, trust, list, representees, represented, prescrib, doctor, prescription, prescriptions, arrai, email, representatives, representing, representative, dlhcps, declar, dlhcp, uaps, uap, noreply, itrust, subject, messages, body, send]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewPrescriptionRenewalNeedsAction.java
-Comments: [action, returns, list, patients, special, diagnosis, history, logged, medications, expire, days, defaults, factory, create, log, person, viewing, prescription, renewals, patient, helper, bean]
-Code: [view, prescript, renew, action, patient, log, factory, list, bean, patients, messages]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewReceivingReferralsAction.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewReceivingReferralsAction.java
 Comments: []
 Code: [view, receiv, referr, action, offic, visit, hcp, factori, patient, trust, list, bean, unread, size, updat, edit, date]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewReportAction.java
 Comments: [action, view, report, jsp, factori, creat, log, person, diagnosi, list, patient, pid, interest, diagnos, trust, procedur, prescript, declar, personnel, bean, mid, paitent]
 Code: [view, report, action, patient, personnel, factori, log, list, diagnosi, bean, diagnos, pid, trust, procedur, prescript, current, declar, mid]
@@ -712,49 +381,11 @@ Code: [appt, bean, implement, serializ, serial, version, type, patient, hcp, tim
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ApptRequestBean.java
 Comments: [appt, pend, call, befor, method, effect, accept]
 Code: [appt, request, bean, statu, pend, accept, valu, els]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewReportAction.java
-Comments: [action, view, report, jsp, defaults, factory, create, log, person, viewing, diagnosis, list, patient, pid, interest, diagnoses, trust, procedure, procedures, prescription, prescriptions, declared, returns, personnel, bean, mid, paitent, patient]
-Code: [view, report, action, patient, personnel, factory, log, list, diagnosi, bean, diagnoses, pid, trust, procedur, procedures, prescript, prescriptions, current, declar, personnel, mid, patient]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewSentReferralsAction.java
-Comments: [viewing, referrals, author, student, sorted, time, created, list, verbos, referr, bean, field, direction, pseudo, sort, dir, specific, referral, edit, existing, trust, edit, delete, delet, patient, receiving]
-Code: [view, referr, action, patient, personnel, hcpid, factory, trust, sender, query, timestamp, sort, direction, list, verbos, bean, referrals, field, dir, referral, edit, remov, receiv]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewSurveyResultAction.java
-Comments: [handle, retrieving, survey, results, database, logs, transaction, defaults, factory, create, action, log, person, retrieves, hospital, bean, survei, result, result, specs, java, util, list, trust, form, valid, zip]
-Code: [view, survei, result, action, search, validator, log, factory, list, bean, hospital, trust, form, valid, phospital, pspecialty, zip, validate, pzip]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/action/ViewVisitedHCPsAction.java
-Comments: [action, view, visit, jsp, defaults, factory, create, log, person, viewing, visited, bean, personnel, office, visit, date, empty, checks, matches, criteria, check, ignore, specialty, zip, parameters, list, designated, current, user, optionally, filtered, doctor, part, search, accept, doctors, beans, represents, trust, includes, returns, undeclared, undeclare, compar, declared, declare, mid, filter, doc]
-Code: [view, visit, action, patient, personnel, doc, offic, arrai, list, bean, visits, declar, factory, log, make, date, hcpid, full, specialty, addr, street, address, city, state, zip, designated, check, match, personnel, equals, start, trust, patient, groups, retrieved, ways, combined, ovlist, recent, office, visit, provider, link, map, recent, hcp, key, put, visited, values, date, str, ensure, dhcps, skip, dbe, message, undeclar, lower, compar, mid, valu, remove, match, doclist, ele, declared, filter]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/BeanBuilder.java
-Comments: [takes, parameter, map, creates, bean, type, returned, obvious, method, rewriting, bug, found, typically, request, paramet, instantiated, loaded, exceptions, thrown, promotion, fitting, checks, overloaded, methods, item, check]
-Code: [bean, builder, warning, suppressed, map, parameterized, build, bean, java, beans, overloaded, methods, stupid, limitation, check, check, overload, introspector, find, properti, descriptor, descriptors, info, object, empty, method, write, equals, property, skip, setters, enumerations, paramet, types, constants, invoke, illeg, argument, informative, message, declar, length, compar, put, exists]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/AdverseEventBean.java
-Comments: [bean, storing, data, adverse, event, based, drug, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, date, patient, patients, reported, sets, description]
-Code: [advers, event, bean, drug, description, date, status, prescriber]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/AllergyBean.java
-Comments: [bean, storing, data, allergies, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [allergi, bean, patient, description, ndcode, date, found, clone, found, str, simpl, date, format, yyyy, stack, trace]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ApptBean.java
-Comments: [appt, type, patient, hcp, date, comment, returns, advance, field, checking]
-Code: [appt, bean, serial, version, type, patient, hcp, timestamp, date, comment, implemented, arbitrary, constant, equals, object, appt]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ApptRequestBean.java
-Comments: [appt, pending, called, method, effect, accepted]
-Code: [appt, request, bean, appt, status, pending, accepted, valu]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ApptTypeBean.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ApptTypeBean.java
 Comments: []
 Code: [appt, type, bean, durat]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/DiagnosisBean.java
 Comments: [bean, store, data, diagnosi, purpos, period, littl, function, minor, format, concaten, phone, number, togeth, onli, getter, setter, eclips, hint, sourc, gener, creat, easili, option, move, elsewher, procedur, descript, edit, offic, visit]
 Code: [diagnosi, bean, icd, descript, classif, visit, els, format, vid]
@@ -826,93 +457,19 @@ Code: [advers, event, bean, loader, implement, list, load, result, arrai, singl,
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/AllergyBeanLoader.java
 Comments: [loader, allergi, bean, load, inform, result, prepar, statement, superclass, enforc, consist, detail, paradigm, method, link]
 Code: [allergi, bean, loader, implement, list, load, result, arrai, singl, patient, descript, found, timestamp, prepar, statement, paramet, illeg, state, unimpl]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/DiagnosisBean.java
-Comments: [bean, storing, data, diagnosis, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, moved, procedure, description, optional, editing, office, visit]
-Code: [diagnosi, bean, optional, icd, description, classification, visit, equals, format, vid]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/DiagnosisStatisticsBean.java
-Comments: [bean, storing, data, diagnosis, counts, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, author, student, local, zip, analyzed, count, region, beginning, time, covered, end, empty, accepts, stats, zip, diagnoses, region, start, date, end, getter, stored, setter, regional, start]
-Code: [diagnosi, statist, bean, zip, stats, region, date, start, end]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/DrugInteractionBean.java
-Comments: [bean, storing, data, message, user, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, drug, description]
-Code: [drug, interact, bean, drug, description]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/Email.java
-Comments: [bean, storing, data, fake, emails, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [email, list, arrai, subject, body, timestamp, time, added, list, str, addr, length, substring, equals, object, obj, designed, arbitrary, constant, size]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/FamilyMemberBean.java
-Comments: [bean, storing, data, family, members, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [famili, member, bean, mid, relation, full]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/forms/EditOfficeVisitForm.java
-Comments: [form, data, coming, editing, office, visit, bean, kinda, real, life, administrative, fill, necessarily, making, sense]
-Code: [edit, offic, visit, form, hcp, patient, hospit, remov, lab, proc, diag, immun, med, notes, date, start, end, dosage, instructions, caus, death, orc, comment, object, overrid, reason, form, valid, equals, invalid, reason, codes]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/forms/EditPrescriptionsForm.java
-Comments: [form, data, coming, editing, prescription, office, visit, bean, kinda, real, life, administrative, fill, necessarily, making, sense, overrid, comment, med, start, date, end, dosage, instructions]
-Code: [edit, prescript, form, med, start, date, end, dosage, instructions, overrid, codes, clone, comment]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/forms/HealthRecordForm.java
-Comments: [form, data, coming, editing, health, record, bean, kinda, real, life, administrative, fill, necessarily, making, sense]
-Code: [health, record, form, height, weight, smoker, blood, pressur, cholesterol, tri]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/forms/VisitReminderReturnForm.java
-Comments: [form, data, coming, reminding, user, upcoming, office, visit, bean, kinda, real, life, administrative, fill, necessarily, making, sense]
-Code: [visit, remind, form, hcp, patient, phone, number, arrai, list, flag, flags, phone, similar, collections, sort, comparator, compare, type, compar, ignor, array, size]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/GroupReportBean.java
-Comments: [patients, filters]
-Code: [group, report, bean, list, patient, patients, filter, filters, filter, strings, arrai, names, patient, full]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/HCPDiagnosisBean.java
-Comments: [bean, storing, data, diagnosis, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [diagnosi, bean, pname, num, patients, list, medic, med, lab, procedur, visit, sat, treatment, survei, count, hcp, medlist, lablist, satisfaction, results]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/HCPLinkBean.java
-Comments: [mini, bean, pass, data, view, prescript, records, jsp, report, advers, event, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, patient, patients, drug, reported, sets]
-Code: [link, bean, prescrib, drug, checked]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/HCPVisitBean.java
-Comments: [bean, storing, data, visit, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, javadoc, java, lang, object, result, prime, addr, specialty, date, designated, hcp, equals]
-Code: [visit, bean, specialty, addr, date, designated, hcp, mid, val, prime, result, equals, object, obj]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/HealthRecord.java
-Comments: [bean, storing, health, record, data, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, note, simplistic, view, wikipedia, article, cholesterol, rounds, height, exact, put, math, round, weight]
-Code: [health, record, patient, height, weight, smoker, smoke, statu, desc, unknown, smoked, status, blood, pressur, cholesterol, tri, personnel, timestamp, date, recorded, date, time, systolic, pressure, diastolic, total, cholesterol, current, day, bodi, mass, index]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/HospitalBean.java
-Comments: [bean, storing, data, hospital, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [hospit, bean, equals, object, obj, designed, arbitrary, constant]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/LabProcedureBean.java
-Comments: [bean, storing, data, lab, procedure, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, unique, digit, number, start, identifier, laboratory, patient, digits, format, nnnnn, alphanumeric, characters, office, visit, specifies, visit, ordered, date, time, status, update, timestamp, permission, granted, lhcp, test, assigned, tech, priority, viewed, result, numerical, stored, ensure, accuracy, optional, sign, units, formats, unit, decimal, point, results, upper, bound, confidence, interval, lower, numer, blank, returned, upper, lower, sets, transit, received, testing, method, technicians, techs, prioriti, returns, completed, view]
-Code: [lab, procedur, bean, transit, received, testing, pending, completed, restrict, pid, loinc, status, commentary, results, timestamp, rights, prioriti, view, patient, numer, result, result, unit, upper, bound, lower, length, pars, bound, statu, complete, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/AdverseEventBeanLoader.java
-Comments: [loader, advers, event, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [advers, event, bean, loader, bean, list, load, result, arrai, single, event, patient, drug, pre, immu, description, comment, date, timestamp, time, logged, status, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/AllergyBeanLoader.java
-Comments: [loader, allergi, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [allergi, bean, loader, bean, list, load, result, arrai, single, allergy, patient, description, found, timestamp, prepar, statement, parameters, illeg, state, unimplemented]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ApptBeanLoader.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ApptBeanLoader.java
 Comments: []
 Code: [appt, bean, loader, implement, list, load, result, arrai, singl, prepar, statement, paramet, type, patient, hcp, timestamp, date, comment, doctor, sched]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ApptRequestBeanLoader.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ApptRequestBeanLoader.java
 Comments: []
 Code: [appt, request, bean, loader, implement, list, load, result, arrai, singl, pend, accept, prepar, statement, paramet]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ApptTypeBeanLoader.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ApptTypeBeanLoader.java
 Comments: []
 Code: [appt, type, bean, loader, implement, list, load, result, arrai, singl, prepar, statement, paramet, durat]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/BeanLoader.java
 Comments: [interfac, enforc, paradigm, loader, gener, type, specifi, bean, respons, extact, result, load, list, typic, make, iter, call, singl, java, sql, extract, instruct, map, row, inform, item, insert, updat, method, field, prepar, statement, modifi, appropri, tabl, data, place, paramet]
 Code: [interfac, bean, loader, list, load, result, singl, prepar, statement, paramet]
@@ -1112,213 +669,11 @@ Code: [survei, bean, visit, date, wait, room, minut, exam, satisfact, treatment,
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/SurveyResultBean.java
 Comments: [bean, survei, result, search, store, address, inform, addit, specialti, hospit, averag, rang, variabl, percent, offic, visit, satisfact, avail]
 Code: [survei, result, bean, hcp, address, citi, state, zip, specialti, hospit, avg, wait, minut, exam, minutu, visit, satisfact, treatment, percent, sat, avail, gener, surgeon, heart, specialist, pediatrician, mid, paddress, pciti, pstate, pzip, pspecialti, phospit, room]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/BeanLoader.java
-Comments: [helps, enforce, paradigm, contained, loader, generic, type, specifies, bean, responsible, extacting, result, loaded, loads, list, typically, makes, iterated, calls, load, single, java, sql, result, extracting, util, instructions, mapping, rows, beans, information, item, insert, update, method, fields, prepared, statement, modifies, table, data, appropriately, parameters]
-Code: [bean, loader, list, load, result, single, prepar, statement, parameters, bean]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/DiagnosisBeanLoader.java
-Comments: [loader, diagnosi, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [diagnosi, bean, loader, bean, load, list, result, arrai, single, diag, description, chronic, visit, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/DrugInteractionBeanLoader.java
-Comments: [loader, medic, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [drug, interact, bean, loader, bean, list, load, result, arrai, single, medic, med, description, drug, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/DrugReactionOverrideBeanLoader.java
-Comments: [loader, overrid, reason, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [drug, reaction, overrid, bean, loader, reason, bean, list, load, result, arrai, single, orc, description, prepar, statement, parameters]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/EmailBeanLoader.java
-Comments: [loader, fake, emails, loads, information, beans, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [email, bean, loader, email, list, load, result, arrai, single, prepar, statement, parameters, list, str, subject, body, addr, arrays, split, time, added, timestamp, date]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/FamilyBeanLoader.java
-Comments: [loader, famili, member, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [famili, bean, loader, member, bean, relation, list, load, result, arrai, single, prepar, statement, parameters, illeg, state, unimplemented, fam, mid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/HealthRecordsBeanLoader.java
-Comments: [loader, health, records, loads, information, beans, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [health, record, bean, loader, record, list, load, result, arrai, single, prepar, statement, parameters, bean, patient, height, weight, smoker, smoke, status, blood, pressur, cholesterol, tri, personnel, date, recorded, timestamp, date]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/HospitalBeanLoader.java
-Comments: [loader, hospit, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [hospit, bean, loader, bean, list, load, result, arrai, single, hosp, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/LabProcedureBeanLoader.java
-Comments: [loader, lab, procedur, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [lab, procedur, bean, loader, bean, list, load, result, arrai, single, procedure, laboratori, pid, patient, loinc, status, commentary, results, offic, visit, timestamp, updat, date, rights, tech, prioriti, view, patient, numer, result, unit, upper, bound, lower, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/LOINCBeanLoader.java
-Comments: [loader, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [bean, loader, cbean, list, load, result, arrai, single, lab, procedur, laboratori, component, kind, property, time, aspect, scale, type, method, prepar, statement, parameters, bean, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/MedicationBeanLoader.java
-Comments: [loader, medic, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [medic, bean, loader, bean, list, load, result, arrai, single, med, description, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/MessageBeanLoader.java
-Comments: [loader, messag, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [messag, bean, loader, bean, list, load, result, arrai, single, prepar, statement, parameters, message, body, subject, read, parent, origin, date, timestamp, parent, msg, original]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/OfficeVisitLoader.java
-Comments: [loader, offic, visit, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [offic, visit, loader, bean, bean, list, load, result, arrai, single, hcp, notes, patient, hospit, date, str, simpl, format, yyyy, date, time, incident, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/OperationalProfileLoader.java
-Comments: [loader, operational, profile, loads, information, beans, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [oper, profil, loader, bean, profile, list, load, result, illeg, state, unimplemented, prepar, statement, parameters, bean, single, grand, total, patient, personnel, transact, type, parse, total, count, patient, personnel, put, num, transactions]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/OverrideReasonBeanLoader.java
-Comments: [loader, medic, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [overrid, reason, bean, loader, bean, list, load, result, arrai, single, reason, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/PatientInstructionsBeanLoader.java
-Comments: [loader, patient, instruct, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean, javadoc, ncsu, csc, itrust, loaders, load, list, java, sql, single, parameters, statement, lang, object]
-Code: [patient, instruct, bean, loader, bean, list, load, result, arrai, single, comment, url, modified, java, util, date, timestamp, time, hcpid, pid, visit, prepar, statement, parameters, sql]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/PatientLoader.java
-Comments: [loader, patient, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [patient, loader, bean, bean, simpl, date, format, yyyy, list, load, result, arrai, single, common, date, birth, birth, str, death, death, caus, email, street, address, city, state, zip, phone, emerg, mother, father, blood, type, type, ethnic, ethnicity, gender, gender, topic, notes, credit, card, number, direct, home, religion, language, spiritu, practices, altern, histori, singl, history, chang, prepar, statement, parameters, secur, question, answer, java, sql, parse, time, pars, stack, trace, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/PersonnelLoader.java
-Comments: [loader, personnel, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [personnel, loader, bean, bean, list, load, result, arrai, single, amid, role, role, phone, street, address, city, state, zip, email, specialty, prepar, statement, parameters]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/PrescriptionBeanLoader.java
-Comments: [loader, prescript, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [prescript, bean, loader, bean, medic, med, list, load, result, arrai, single, pres, visit, start, date, str, simpl, format, yyyy, java, util, date, time, end, dosage, instructions, medication, overrid, reason, prepar, statement, parameters, sql]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/PrescriptionReportBeanLoader.java
-Comments: [loader, prescript, report, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [prescript, report, bean, loader, bean, pre, offic, visit, list, load, result, arrai, single, pres, visit, prescription, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ProcedureBeanLoader.java
-Comments: [loader, procedur, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [procedur, bean, loader, bean, load, list, result, arrai, single, procedure, description, attribute, date, visit, prepar, statement, parameters]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ReferralBeanLoader.java
-Comments: [loader, referr, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [referr, bean, loader, bean, simpl, date, format, yyyy, list, load, result, arrai, single, ref, fixed, correct, mysql, database, bug, plaguing, java, sender, receiv, patient, details, ovid, time, stamp, timestamp, view, viewed, patient, priority, prioriti, prepar, statement, parameters]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/RemoteMonitoringDataBeanLoader.java
-Comments: [loader, remot, monitor, data, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [remot, monitor, data, bean, loader, bean, list, load, result, arrai, single, prepar, statement, parameters, illeg, state, unimplemented, log, patient, systol, blood, pressure, diastol, glucos, level, height, weight, pedomet, reading, time, timestamp, time, logged, report, role]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/RemoteMonitoringListsBeanLoader.java
-Comments: [loader, remot, monitor, data, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [remot, monitor, list, bean, loader, telemedicin, bean, list, load, result, arrai, single, prepar, statement, parameters, illeg, state, unimplemented, systol, blood, pressur, allowed, pressure, diastol, glucos, level, level, height, height, weight, weight, pedomet, read, reading]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/ReportRequestBeanLoader.java
-Comments: [loader, report, request, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [report, request, bean, loader, bean, list, load, result, arrai, single, patient, date, timestamp, view, status, prepar, statement, parameters, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/SurveyLoader.java
-Comments: [loader, survei, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [survei, loader, bean, bean, list, load, result, illeg, state, unimplemented, prepar, statement, parameters, single, survey, visit, date, timestamp, exam, room, minutes, wait, treatment, satisfaction]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/SurveyResultBeanLoader.java
-Comments: [loader, survei, result, beans, loads, information, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [survei, result, bean, loader, bean, list, load, arrai, single, prepar, statement, parameters, illeg, state, unimplemented, result, mid, avg, exam, room, minutes, treatment, satisfaction, satisfation, visit, wait, paddress, address, pcity, city, pstate, state, pzip, zip, phospital, hospit, pspecialty, specialty, percent, satisfact, results]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/TransactionBeanLoader.java
-Comments: [loader, transact, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [transact, bean, loader, bean, list, load, result, arrai, single, prepar, statement, parameters, illeg, state, unimplemented, info, log, secondari, time, logged, timestamp, type, parse]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/VerboseReferralBeanLoader.java
-Comments: [loader, referr, beans, loads, information, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [verbos, referr, bean, loader, bean, simpl, date, format, yyyy, list, load, result, arrai, single, ref, fixed, correct, mysql, database, bug, plaguing, java, sender, receiv, patient, details, ovid, time, stamp, timestamp, view, viewed, patient, priority, prioriti, date, visit, prepar, statement, parameters, runtim, implemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/loaders/VisitReminderReturnFormLoader.java
-Comments: [loader, visit, remind, forms, loads, information, beans, result, sets, prepar, statements, superclass, enforce, consistency, details, paradigm, methods, link, bean]
-Code: [visit, remind, form, loader, bean, form, list, load, result, arrai, single, hcpid, patient, phone, diagnosis, visit, prepar, statement, parameters, bean, illeg, state, unimplemented]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/LOINCbean.java
-Comments: [bean, storing, data, lab, procedure, codes, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [cbean, lab, procedur, component, kind, property, time, aspect, scale, type, method]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/MedicationBean.java
-Comments: [medication, thing, aspirin, office, visit, prescription, link, prescript, bean, author, andy, meneely, procedure, description]
-Code: [medic, bean, description, formatted, length, substring, designed, arbitrary, constant, equals, object]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/MessageBean.java
-Comments: [bean, storing, data, message, user, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, recipients, sets, sender, subject, body, time, timestamp, read]
-Code: [messag, bean, parent, msg, subject, body, timestamp, read, origin, date]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/OfficeVisitBean.java
-Comments: [bean, storing, data, office, visit, hospital, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, method, visit]
-Code: [offic, visit, bean, patient, hcp, notes, date, str, simpl, format, yyyy, date, hospit, incident, parse, pars]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/OperationalProfile.java
-Comments: [bean, storing, operational, profile, data, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [oper, profile, num, total, transactions, patient, personnel, map, transact, type, integer, count, creat, empti, values, length, put]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/OverrideReasonBean.java
-Comments: [reason, aspirin, office, visit, prescription, link, prescript, bean, procedure, description]
-Code: [overrid, reason, bean, pre, description, designed, arbitrary, constant, equals, object, orb]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PatientBean.java
-Comments: [bean, storing, data, patient, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, age]
-Code: [patient, bean, comparable, serial, version, email, secur, question, answer, password, confirm, street, address, city, state, zip, phone, emerg, credit, card, type, number, topical, health, information, date, birth, str, simpl, format, yyyy, date, death, caus, death, mother, father, blood, ethnicity, gender, topic, notes, direct, home, religion, language, spiritu, practices, altern, type, parse, birth, pars, stack, trace, age, current, time, millis, time, days, weeks, ethnic, full, gender, composition, equals, mid, note, setter, stored, database, separate, columns, idea, compar]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PatientHistoryBean.java
-Comments: [bean, storing, historical, data, patient, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [patient, histori, bean, serial, version, chang, date, str, simpl, format, yyyy, date, parse, pars, stack, trace, mid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PatientInstructionsBean.java
-Comments: [bean, storing, data, patient, specific, instructions, office, visit, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, visit, url, comment, modified]
-Code: [patient, instruct, bean, serial, version, hcpid, pid, visit, url, comment, date, modified]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PatientVisitBean.java
-Comments: [bean, storing, data, patient, visit, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [patient, visit, bean, patient, address, date, date]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PersonnelBean.java
-Comments: [bean, storing, data, hospital, employee, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [personnel, bean, serial, version, role, password, confirm, secur, question, answer, street, address, city, state, zip, phone, email, specialty, amid, full, mid, equals, compar, index, list, size, role, parse]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PrescriptionBean.java
-Comments: [bean, storing, data, prescription, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, dosage, reason]
-Code: [prescript, bean, medic, medication, visit, start, date, str, simpl, format, yyyy, date, end, dosage, instructions, list, overrid, reason, reasons, equals, object, designed, arbitrary, constant, arrai, reason, parse, java, text, pars, instruction]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/PrescriptionReportBean.java
-Comments: [container, bean, prescription, report, requirement, prescript, turn, medication, office, visit, made, clean, query, link, offic, visit, author, andy, meneely]
-Code: [prescript, report, bean, prescription, offic, visit, visit]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ProcedureBean.java
-Comments: [bean, storing, data, procedure, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, description, administering, immunization, attribute, determine, sets]
-Code: [procedur, bean, visit, description, attribute, date, hcpid, attrib]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ReferralBean.java
-Comments: [bean, storing, data, medical, referral, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [referr, bean, patient, sender, receiv, details, ovid, view, patient, time, stamp, priority, equals, object, designed, arbitrary, constant]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/RemoteMonitoringDataBean.java
-Comments: [bean, storing, remote, monitoring, data, patients, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, parameters, log, parameter]
-Code: [remot, monitor, data, bean, patient, timestamp, time, systol, blood, pressure, diastol, glucos, level, height, weight, pedomet, reading, report, role, log]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/ReportRequestBean.java
-Comments: [bean, storing, data, report, request, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [report, request, bean, patient, approv, date, view, status, comment, date, format, yyyy, requested, messages, approved, rejected, viewed, clone, simpl, parse, pars, message, formatter, time, instance, localization, current, locale]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/SecurityQA.java
-Comments: [bean, storing, data, security, question, answer, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [secur, question, answer, confirm]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/SurveyBean.java
-Comments: [bean, storing, survey, data, office, visit, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [survei, bean, visit, date, wait, room, minutes, exam, satisfaction, treatment, date, format, yyyy, clone, simpl, parse, pars, message]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/SurveyResultBean.java
-Comments: [bean, survey, results, search, stores, address, information, addition, specialty, hospital, averages, range, beans, variable, percent, office, visits, satisfaction]
-Code: [survei, result, bean, hcp, address, city, state, zip, specialty, hospit, avg, wait, minutes, exam, minutues, visit, satisfaction, treatment, percent, sat, list, specialties, general, surgeon, heart, specialist, pediatrician, mid, paddress, pcity, pstate, pzip, pspecialty, phospital, hospital, room, satisfact, results, percent]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/TelemedicineBean.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/TelemedicineBean.java
 Comments: []
 Code: [telemedicin, bean, systol, blood, pressur, diastol, glucos, level, height, weight, pedomet, read]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/TransactionBean.java
 Comments: [bean, store, data, transact, occur, trust, purpos, period, littl, function, minor, format, concaten, phone, number, togeth, onli, getter, setter, eclips, hint, sourc, gener, creat, easili, auto, stub]
 Code: [transact, bean, log, secondari, type, timestamp, time, info, role, tranact]
@@ -1386,81 +741,11 @@ Code: [auth, factori, user, mid, role, password, connect, conn, prepar, statemen
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/CPTCodesDAO.java
 Comments: [manag, stand, databas, access, intend, reflect, tabl, time, complex, queri, extra, assum, data, valid, correct, setter, ani, paramet, factori, link, everi, obtain, connect, accur, describ, medic, surgic, diagnost, servic, design, commun, uniform, inform, procedur, physician, coder, patient, accredit, organ, payer, administr, financi, analyt, purpos, http, ama, assn, bill, cpt, shtml, author, andi, typic, associ, list, java, bean, conn, prepar, statement, immun, relat, select, cptcode, attribut, order, descript, represent, textual, successfulli, proc, repres, oper, success, trust, chang]
 Code: [factori, procedur, bean, loader, list, connect, conn, prepar, statement, result, execut, queri, load, stack, trace, close, immun, singl, proc, trust, descript, attribut, updat, alreadi, exist]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/TransactionBean.java
-Comments: [bean, storing, data, transaction, occurred, trust, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [transact, bean, log, secondari, type, timestamp, time, logged, info, role, auto, generated, stub, tranact]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/VerboseReferralBean.java
-Comments: [bean, storing, data, medical, referral, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily, patient, sender, receiv, date]
-Code: [verbos, referr, bean, patient, sender, receiv, details, ovid, date, view, patient, time, stamp, priority, equals, object, designed, arbitrary, constant]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/beans/VisitFlag.java
-Comments: [bean, storing, data, flag, office, visit, purpose, store, period, functionality, added, minor, formatting, concatenating, phone, numbers, getters, setters, eclipse, hint, source, generate, create, easily]
-Code: [visit, flag, diagnosed, missed, medication, missing, visit, immunization, type]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/charts/AdverseEventsData.java
-Comments: [handles, data, charting, wolf, free, chart, dataset, producer, categori, tool, tip, generator, item, link, author, jason, generated, called, page, initialize, list, adverse, events, needed, produce, desired, method, parses, event, beans, dataset, java, lang, object, finalize, invalidated, seconds, influence, cewolf, caching, behaviour, returns, unique, link, target, special, item, org, jfree, tooltips, gener, tip]
-Code: [advers, event, data, dataset, producer, categori, tool, tip, generator, item, link, serial, version, hardcoded, months, array, make, implementation, simpler, adverse, event, charts, jan, feb, mar, apr, june, july, aug, sept, oct, nov, dec, initialize, values, month, list, events, bean, prescription, immunization, analysis, object, produc, dataset, map, params, bar, change, based, type, chart, produce, finalize, throwable, simpl, date, format, sdf, yyyy, parse, repreentation, report, date, java, increment, count, calendar, cal, instance, time, pars, stack, trace, message, month, monthly, producing, represents, number, analyzed, names, labels, expired, current, time, millis, gener, link, series, category, tip, arg]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/charts/DiagnosisTrendData.java
-Comments: [called, initialize, list, health, records, needed, produce, desired, chart, recs, health, patient, viewed, type, data, graphed, originally, height, weight, method, parses, diagnosi, statistics, beans, map, parameters, passed, wolf, locally, information, dataset, produc, java, lang, object, finalize, producer, invalidated, seconds, influence, cewolf, caching, behavior, unique, link, target, special, item, org, jfree, tooltips, categori, tool, tip, generator, gener, tip, dataset]
-Code: [diagnosi, trend, data, dataset, producer, categori, tool, tip, generator, item, link, serial, version, seri, initialize, values, week, list, beans, diagnosis, statistics, statist, bean, avg, searched, epidemic, initi, zip, stats, region, object, produc, dataset, map, params, bar, charts, change, based, type, chart, produce, finalize, throwable, zipcode, cases, region, current, average, prior, expired, date, current, time, millis, time, gener, link, series, category, tip, arg]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/charts/HealthData.java
-Comments: [handles, data, charting, height, weight, information, wolf, free, chart, dataset, producer, categori, tool, tip, generator, item, link, author, lets, displayed, called, initialize, list, health, records, needed, produce, desired, recs, health, patient, viewed, type, graphed, originally, cal, calendar, histori, length, method, parses, adverse, event, beans, dataset, map, parameters, passed, locally, produc, java, lang, object, finalize, quarter, cur, year, report, cur, quarter, record, values, num, entries, invalidated, seconds, influence, cewolf, caching, behavior, unique, link, target, special, item, org, jfree, tooltips, gener, tip]
-Code: [health, data, dataset, producer, categori, tool, tip, generator, item, link, hardcoded, months, array, make, implementation, simpler, adverse, event, charts, serial, version, number, quarters, chart, years, histori, length, initialize, values, month, entries, quarter, calculate, average, num, labels, jan, mar, apr, jun, jul, sep, oct, dec, list, health, records, record, prescription, immunization, analysis, date, year, ago, rec, date, str, format, year, simpl, yyyy, rest, hmma, sdf, integer, pars, parse, recorded, time, initi, recs, calendar, cal, instance, start, object, produc, dataset, map, params, bar, change, based, type, produce, finalize, throwable, cur, cur, report, month, quarter, skip, entry, history, range, equals, height, weight, monthly, producing, expired, current, time, millis, gener, link, series, category, tip, arg]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/charts/PatientLabResults.java
-Comments: [handles, data, charting, height, weight, information, wolf, free, chart, dataset, producer, categori, tool, tip, generator, item, link, author, lets, displayed, called, initialize, list, lab, procedure, beans, needed, produce, desired, lpsbs, patient, viewing, cal, calendar, histori, length, method, parses, adverse, event, dataset, map, parameters, passed, locally, graphed, produc, java, lang, object, finalize, quarter, cur, year, report, cur, quarter, values, num, entries, invalidated, seconds, influence, cewolf, caching, behavior, unique, link, target, special, item, org, jfree, tooltips, gener, tip]
-Code: [patient, lab, results, dataset, producer, categori, tool, tip, generator, item, link, serial, version, number, quarters, chart, years, histori, length, initialize, values, month, entries, quarter, calculate, average, num, list, health, records, procedur, bean, beans, prescription, immunization, analysis, data, date, year, ago, rec, date, str, format, year, simpl, yyyy, rest, hmma, sdf, integer, pars, parse, lpb, timestamp, time, initi, procedures, lpbs, calendar, cal, instance, start, object, produc, dataset, map, params, bar, charts, change, based, type, produce, finalize, throwable, cur, cur, report, month, quarter, skip, entry, history, range, numer, result, monthly, producing, expired, current, time, millis, health, gener, link, series, category, tip, arg]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/DAOFactory.java
-Comments: [central, mediator, database, access, objects, production, instance, connection, pool, provided, tomcat, stuff, real, test, parses, context, xml, file, link, evil, factory, test, added, author, andy, deployment, call, product, access, allergi, appt, request, type, auth, drug, interact, famili, health, record, hospit, offic, visit, patient, profil, photo, personnel, referr, risk, transact, remind, fake, email, report, survei, lab, procedur, result, messag, advers, event, remot, monitor, prescript, diagnos, reaction, overrid, instruct]
-Code: [factory, product, instance, connect, driver, connection, access, allergi, appt, request, type, auth, drug, interact, famili, health, record, hospit, offic, visit, patient, profil, photo, personnel, referr, risk, transact, remind, fake, email, report, survei, lab, procedur, result, messag, advers, event, remot, monitor, prescript, diagnos, reaction, overrid, instruct]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/IConnectionDriver.java
-Comments: [factory, ways, connection, author, andy]
-Code: [connect, driver, connection]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/AccessDAO.java
-Comments: [access, queries, related, authorization, stands, database, access, object, intended, reflections, table, time, complex, sets, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, number, minutes, session, effectively, row, global, variables, exist, inserted, timeout, mins]
-Code: [access, factory, session, timeout, mins, connection, conn, prepar, statement, global, variables, timeout, result, execut, query, insert, stack, trace, util, close, num, updated, update, table]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/AdverseEventDAO.java
-Comments: [logging, mechanism, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, adverse, event, reports, user, mid, looked, java, util, list, advers, event, beans, conn, prepar, statement, events, patient, adds, message, bean, representing, adverseevents, status, codes, time, logged, timestamp, ending]
-Code: [advers, event, factory, bean, loader, list, bean, report, mid, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, report, hcpmid, events, patient, pre, immu, comment, prescriber, status, drug, description, active, update, hcp, remov, removed, insert, unremov, adverseevents, found, perscriptions, start, end, pars, simpl, date, format, fmt, yyy, date, beginning, parse, ending, codes, timestamp, time, immunizations]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/AllergyDAO.java
-Comments: [stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, list, patient, allergies, pid, java, util, allergi, beans, conn, prepar, statement, patient, found, adds, allergy, bean]
-Code: [allergi, factory, bean, loader, list, bean, allergies, pid, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, allergy, patient, found, description, date, java, sql, time, update]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ApptDAO.java
-Comments: [conn, prepar, statement, appointment, appt, doctor, sched, date, patient, returns, past, future, conflicts, mid]
-Code: [appt, factory, bean, loader, abloader, type, list, bean, appt, connection, conn, prepar, statement, result, execut, query, load, util, close, mid, schedul, appointment, type, patient, doctor, sched, date, comment, parameters, update, edit, timestamp, remov, conflict, duration, appointmenttype, types, match, ends, starts, patient, sets, appts, exclude]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ApptRequestDAO.java
-Comments: [hcpid, prepar, statement, appointmentrequests, doctor, sched, date, req, appt]
-Code: [appt, request, factory, bean, loader, list, bean, hcpid, connection, conn, prepar, statement, stmt, result, execut, query, load, util, close, request, req, appoint, requests, appt, type, patient, doctor, sched, date, comment, pending, accepted, parameters, update, updat, req, single]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ApptTypeDAO.java
-Comments: [conn, prepar, statement, appointmenttype, appt, type]
-Code: [appt, type, factory, bean, loader, list, bean, types, connection, conn, prepar, statement, result, execut, query, load, util, close, type, appointmenttype, appt, duration, parameters, update, edit, beans, size]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/AuthDAO.java
-Comments: [auth, authentication, methods, access, users, table, stands, database, object, intended, reflections, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, min, typical, user, specific, information, patient, initially, security, question, random, characters, guess, mid, role, password, representing, newly, randomly, generated, reset, answer, returns, trust, change, changing, record, login, failure, blacklists, address, key, row, addr, number, failures, resetting, attempt, conn, prepar, statement, reset, password, occured, login, check, exists]
-Code: [auth, factory, user, mid, role, password, connection, conn, prepar, statement, pstmt, users, question, answer, digest, utils, sha, hex, enter, random, account, email, pwd, random, execut, update, stack, trace, util, close, secur, question, user, trust, personnel, patient, valu, supported, result, query, parse, exist, reset, security, record, login, failure, addr, failures, failur, count, address, date, calendar, instance, time, num, updated, empty, row, begin, insert, strike, password, failurecount, ipaddress, minutes, clear, current, time, millis, timestamp, updat, check, exists]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/CPTCodesDAO.java
-Comments: [managing, codes, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, accurately, describes, medical, surgical, diagnostic, services, designed, communicate, uniform, information, procedures, physicians, coders, patients, accreditation, organizations, payers, administrative, financial, analytical, purposes, http, www, ama, assn, org, pub, physician, resources, solutions, practice, coding, billing, insurance, cpt, shtml, author, andy, typical, returns, list, java, util, procedur, beans, conn, prepar, statement, immunization, related, select, cptcodes, attribute, order, procedure, description, representation, textual, adds, successfully, proc, bean, representing, operation, successful, trust, change]
-Code: [factory, procedur, bean, loader, list, bean, codes, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, immun, single, proc, trust, description, attribute, update, exists, updat]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/defaultProfilePhoto.jpg
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/defaultProfilePhoto.jpg
 Comments: [tuv, skw, djt, vnn, phg, pne, djz, dly, kwz]
 Code: [lca, wnu, fow, oex, dtl]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/DiagnosesDAO.java
 Comments: [manag, diagnos, dure, offic, visit, stand, databas, access, intend, reflect, tabl, time, complex, queri, extra, assum, data, valid, correct, setter, ani, paramet, factori, link, everi, obtain, connect, author, student, conn, prepar, statement, select, diagnosi, local, zip, count, region, specifi, icd, evalu, lower, start, date, upper, end, bean, ovdiagnosi, officevisit, patient, dai, worth, includ, timestamp, weekli, period, list, week, cal, calendar, pre, prescript, uniqu, newli, edit, exist, updat, indic, remov, medic]
 Code: [diagnos, factori, diagnosi, bean, loader, list, visit, connect, conn, prepar, statement, result, execut, queri, load, stack, trace, close, statist, count, icd, zip, java, date, lower, upper, timestamp, time, local, row, substr, region, arrai, weekli, calendar, cal, instanc, week, stat, befor, find, earliest, incid, ovdiagnosi, officevisit, updat, insert, edit, remov]
@@ -1644,197 +929,11 @@ Code: [trust, extend, serial, version, messag, occur, pleas, log, detail, inform
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/NoHealthRecordsException.java
 Comments: [messag, thrown, check, health, risk, indic, patient, record, enter, separ, trust, becaus, handl, slightli, differ, pass, pre, specifi]
 Code: [health, record, extend, trust, patient, ani, risk, calcul, exist, serial, version]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/DiagnosesDAO.java
-Comments: [managing, diagnoses, office, visit, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, student, visit, conn, prepar, statement, select, diagnosis, codes, local, zip, count, regional, icd, zip, evaluate, lower, starting, date, upper, ending, bean, counts, ovdiagnosis, officevisits, patients, patient, timestamp, weekly, period, list, beans, week, cal, calendar, adds, pres, prescription, unique, newly, edits, existing, updated, indicating, removes, medic, medication, removed]
-Code: [diagnos, factory, diagnosi, bean, loader, list, bean, visit, connection, conn, prepar, statement, codes, diagnosis, result, execut, query, load, stack, trace, util, close, statist, counts, icd, zip, java, date, lower, upper, timestamp, time, day, worth, include, local, row, substring, region, arrai, weekli, calendar, cal, instance, lower, upper, week, stats, count, find, earliest, incident, ovdiagnosis, officevisits, update, insert, edit, remove]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/DrugInteractionDAO.java
-Comments: [managing, drug, interactions, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, http, www, fda, gov, drugs, inform, ucm, htm, author, andy, typical, returns, list, input, java, util, drug, interact, beans, conn, prepar, statement, druginteractions, adds, interaction, addition, successful, exists, trust, thrown, description, explanation, indicating, success, failure, remove, patient, removed, successfully]
-Code: [drug, interact, factory, bean, loader, list, bean, interactions, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, report, interaction, drug, description, trust, equals, interact, current, dib, drugs, exists, druginteractions, update, delet]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/DrugReactionOverrideCodesDAO.java
-Comments: [managing, reason, codes, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, universal, product, identifier, united, states, drugs, human, http, www, fda, gov, inform, ucm, htm, author, andy, typical, returns, list, java, util, overrid, reason, beans, conn, prepar, statement, drug, reaction, description, looked, bean, representing, adds, change, made, exists, trust, thrown, orc, overridereason, indicating, success, failure, updates, updated, number, rows]
-Code: [drug, reaction, overrid, factory, bean, loader, orc, list, reason, bean, codes, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, single, orc, trust, description, update, exists, updat]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/FakeEmailDAO.java
-Comments: [stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, emails, inserted, java, util, list, email, objects, representing, fake, mails, conn, prepar, statement, fake, date, person, address, addr, send, inserts, insert, returns, substring, body, search, instr]
-Code: [fake, email, factory, bean, loader, list, email, emails, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, person, send, record, addr, subject, body, parameters, update, bodi, substring]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/FamilyDAO.java
-Comments: [queries, related, families, stands, database, access, object, intended, reflections, table, time, complex, sets, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, information, mother, father, patient, pid, list, patients, share, parent, java, util, famili, member, beans, helper, method, alike, relation, query]
-Code: [famili, factory, bean, loader, list, member, bean, parents, pid, members, parent, patients, mother, father, siblings, sibling, children, child, relation, query, connection, conn, prepar, statement, result, execut, load, stack, trace, util, close]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/HealthRecordsDAO.java
-Comments: [health, records, history, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, list, patient, mid, java, util, health, conn, prepar, statement, person, information, adds, record, insert, indicating, successful]
-Code: [health, record, bean, loader, factory, list, record, records, mid, connection, conn, prepar, statement, patient, result, execut, query, load, stack, trace, util, close, person, information, height, weight, smoker, smoke, status, blood, pressur, cholesterol, tri, parameters, num, inserted, update]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/HospitalsDAO.java
-Comments: [managing, hospitals, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, list, sorted, alphabetically, java, util, hospit, beans, conn, prepar, statement, hospital, bean, representing, adds, hosp, insert, indicating, insertion, successful, trust, updates, description, number, rows, affected, update, assign, assigned, thrown, hcp, assignment, success, unassigns, made, remove, removed, removes, assignments, checks, assign, hos]
-Code: [hospit, factory, bean, loader, list, bean, hospitals, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, hospital, single, hosp, trust, update, exists, updat, assign, hcp, hos, assigned, remov, assignment, check]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ICDCodesDAO.java
-Comments: [managing, codes, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, international, statistical, classification, diseases, related, health, problems, commonly, abbreviation, classify, wide, variety, signs, symptoms, abnormal, findings, complaints, social, circumstances, external, injury, disease, http, www, cdc, gov, nchs, icd, htm, author, andy, typical, returns, sorted, java, util, list, diagnosi, beans, conn, prepar, statement, description, representation, bean, adds, change, made, diag, representing, indicating, success, trust, number, updated, rows]
-Code: [factory, diagnosi, bean, loader, list, bean, codes, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, single, diag, trust, description, chronic, classification, update, exists, updat, rows]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/LabProcedureDAO.java
-Comments: [managing, lab, procedure, codes, database, access, object, info, coming, validated, worry, stuff, note, factory, connections, parameter, typical, link, obtaining, list, procedures, patient, java, util, lab, procedur, beans, conn, prepar, statement, patient, rights, updat, date, specific, office, visit, excluding, ovid, offic, visit, occur, month, status, date, diff, individual, bean, representing, laboratori, mid, period, count, pending, conducted, question, inserts, inserted, newly, updates, existing, updated, marks, viewed, marked, unviewed, pid, view, correspond, user, delete, form, transit, tech, tech, received, prioriti, testing, assigned, grouped, priority, pars]
-Code: [lab, procedur, factory, bean, loader, list, bean, patient, connection, conn, prepar, statement, patient, result, execut, query, load, stack, trace, util, close, ovid, month, completed, procedure, single, date, mid, doc, procedures, offic, visits, pid, pend, count, pending, visit, laboratori, status, commentary, results, rights, tech, prioriti, numer, lower, bound, upper, loinc, result, update, insert, updat, timestamp, java, sql, current, time, millis, mark, viewed, view, unview, remov, labprocedure, transit, tech, transit, receiv, received, test, testing, queue, size, size, priority, sizes, submit, unit, upper, lower]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/LOINCDAO.java
-Comments: [stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, logical, observation, identifiers, names, codes, universal, standard, identifying, medical, laboratory, observations, http, loinc, org, author, ben, smith, typical, adds, hosp, cbean, representing, trust, returns, laboratori, procedur, lab, proc, procedure, java, util, list, beans, matching, conn, prepar, statement, select, updates, information, cbeans]
-Code: [factory, bean, loader, cbean, hosp, trust, connection, conn, prepar, statement, laboratori, procedur, component, kind, property, time, aspect, scale, type, method, lab, execut, update, stack, trace, exists, util, close, list, procedures, proc, result, query, load]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/MessageDAO.java
-Comments: [logging, mechanism, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, messages, user, mid, looked, java, util, list, messag, beans, conn, prepar, statement, message, date, sorted, ascending, patients, personnel, descending, adds, bean, representing, original, msg]
-Code: [messag, factory, bean, loader, list, bean, mid, connection, conn, prepar, statement, result, execut, query, load, util, close, time, ascending, descending, message, date, subject, read, parent, msg, original, parameters, update, updat, stack, trace, messages, ref]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/NDCodesDAO.java
-Comments: [managing, codes, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, national, drug, universal, product, identifier, united, states, drugs, human, http, www, fda, gov, inform, ucm, htm, author, andy, typical, returns, list, java, util, medic, beans, conn, prepar, statement, description, looked, bean, representing, medication, adds, change, made, exists, trust, thrown, med, indicating, success, failure, updates, updated, number, rows, removes, removed]
-Code: [factory, medic, bean, loader, list, bean, codes, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, single, med, trust, description, update, exists, updat, remov]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/OfficeVisitDAO.java
-Comments: [tasks, related, office, visits, linking, diagnoses, similar, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, prescript, bean, loader, procedur, typical, adds, visit, offic, visit, bean, indicating, unique, updates, information, representing, returns, specifics, conn, prepar, statement, select, exists, checked, pid, patient, transaction, existence, patient, list, question, java, util, beans, date, mid, visitid, survey, hospital, hospit, hold, event, officevisits, diagnosis, icdcode, represnting, ovdiagnosis, ovd, icdcodes, icd, reason, orc, newly, overrid, reason, orb]
-Code: [offic, visit, factory, loader, diagnosi, bean, prescript, report, bean, connection, conn, prepar, statement, visits, date, notes, patient, hospit, incident, values, execut, update, util, insert, stack, trace, close, java, sql, time, hcp, visit, result, query, load, single, check, exists, pid, list, mid, survey, hospital, diagnosis, icdcode, diags, ovs, arrai, close, reaction, medic, overrid, comment, orb, pre, description]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/PatientDAO.java
-Comments: [managing, information, related, patient, aspects, care, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, mid, question, representing, trust, role, patient, auth, adds, empty, retrieve, bean, conn, prepar, statement, patients, updates, historypatients, histori, exists, pid, indicating, list, declared, java, util, personnel, beans, declar, declares, hcp, insertion, successful, undeclare, action, check, hcpid, represents, representatives, represented, representer, representee, represenation, place, represent, represente, assign, unassign, representation, unassignment, sucessful, diagnoses, diagnosis, ovd, offic, visits, codes, icd, procedures, select, procedure, ovp, cpt, immunization, prescriptions, medication, prescribed, prescription, expired, lists, special, history, logged, medications, expire, days, satisfying, conditions, declaredhcp, ovdiagnosis, officevisits, ovmedication, names, passed, parameters, wildcards]
-Code: [patient, factory, loader, personnel, diagnosi, bean, prescript, procedur, mid, trust, connection, conn, prepar, statement, patients, result, execut, query, user, exist, stack, trace, util, close, role, users, designated, empti, patient, update, insert, bean, load, single, edit, hcpid, email, address, city, state, zip, phone, date, birth, death, caus, mother, father, blood, type, ethnicity, gender, topic, notes, credit, card, number, direct, home, religion, language, spiritu, practices, altern, parameters, history, pid, list, histori, arrai, singl, check, exists, declar, personnel, hcp, declared, undeclar, represented, represent, represente, representing, represents, representer, representee, representative, representatives, remov, diagnoses, ovd, visit, icd, date, procedures, ovp, cpt, cptcode, desc, immun, attribute, immunization, prescriptions, offic, visits, medication, codes, current, end, ldate, dai, ago, expir, renew, declaredhcp, ovdiagnosis, officevisits, ovmedication, lastname, firstname, search, equals, vector, fuzzi]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/PatientInstructionsDAO.java
-Comments: [managing, patient, specific, instructions, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, list, office, visit, visit, lookup, select, patient, specif, record, bean, newly, edit, existing, instruction, modify, modified, remove, instruct, delete, visits, pid, offic]
-Code: [patient, instruct, factory, bean, loader, list, bean, visit, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, specif, instructions, modified, comment, parameters, update, insert, edit, remove, offic, pid, ovloader, visits, select]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/PersonnelDAO.java
-Comments: [managing, information, related, personnel, admins, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, mid, question, representing, trust, min, role, mid, digit, adds, empty, indicating, specific, retrieves, personnel, bean, employee, conn, prepar, statement, updates, demographics, updated, pid, exists, hospitals, java, util, list, hospit, beans, assign, hos, hah, hcp, uap, work, hcpid, relations, prescription, method, doctor, authorized, prescript, describing, offic, visits, matches, names, passed, searched, match, lab, techs]
-Code: [personnel, factory, loader, hospit, bean, mid, trust, connection, conn, prepar, statement, pstmt, personnel, result, execut, query, user, exist, stack, trace, util, close, role, min, max, users, empti, update, bean, load, single, edit, phone, address, city, state, zip, specialty, email, parameters, check, exists, pid, list, hospitals, hah, hcpid, prescrib, doctor, prescript, prescription, visit, search, equals, vector, lab, techs]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/PrescriptionOverrideDAO.java
-Comments: [managing, prescriptions, office, visit, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, student, conn, prepar, statement, select, reaction, medic, adds, prescription, bean, pres, unique, newly, removes, medication, removed]
-Code: [prescript, overrid, factory, reason, bean, loader, list, bean, med, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, pres, reaction, medic, pre, update, insert, remove]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/PrescriptionReportDAO.java
-Comments: [returns, list, information, related, prescription, reports, office, visits, patient, visit, patients, disambiguation, security, reasons, java, util, longs, patient, representing, question, conn, prepar, statement, codes, medication, offic]
-Code: [prescript, report, factory, bean, loader, list, bean, date, patient, start, end, connection, conn, prepar, statement, codes, medication, visit, offic, visits, result, execut, query, load, stack, trace, util, close, patient, preps, build, size, prep, length, substring]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/PrescriptionsDAO.java
-Comments: [managing, prescriptions, office, visit, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, student, conn, prepar, statement, select, medication, codes, visit, adds, prescription, bean, pres, unique, newly, edits, existing, updated, indicating, removes, medic, removed]
-Code: [ncsu, csc, itrust, beans, diagnosi, bean, loaders, hospit, bean, loader, prescript, factory, list, visit, connection, conn, prepar, statement, codes, medication, result, execut, query, load, stack, trace, util, close, pres, start, date, end, dosage, instructions, overrid, parameters, update, insert, edit, remove, medic]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ProceduresDAO.java
-Comments: [managing, medical, procedures, office, visit, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, student, list, procedure, bean, visit, conn, prepar, statement, select, codes, offic, visits, inmmunization, adds, diagnosis, pres, prescription, unique, newly, edits, existing, updated, indicating, removes, medication, medic, removed]
-Code: [procedur, factory, bean, loader, list, bean, visit, connection, conn, prepar, statement, offic, visits, procedure, codes, result, execut, query, load, stack, trace, util, close, immun, attribute, immunization, med, update, insert, edit, remove]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ProfilePhotoDAO.java
-Comments: [uploaded, buffered, image, store, database, mid, photo, profile, returns, trust, conn, prepar, statement, profil, photos, remove]
-Code: [profil, photo, buffer, image, load, photo, input, stream, resourc, jpg, read, imag, close, err, unable, load, profile, stacktrace, stack, trace, factory, store, mid, connection, conn, prepar, statement, photos, arrai, output, baos, ios, memori, cach, write, jpeg, blob, serial, array, execut, update, util, close, trust, result, query, binari, remov]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ReferralDAO.java
-Comments: [update, referrals, fetch, lists, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, typical, office, visit, ovid, list, referr, beans, conn, prepar, statement, mid, sender, specific, referral, retrieve, bean, message, messag, receiv, received, patients, prioriti, patient, patient, viewed, unread, updates, adds, removes, unique, removed, encapsulates, sorted, query, derived, classes, provide, user, retrieved, create, list, userid, perform, sort, field, pseudo, sort, dir, direction, desired, ascending, descending, verbos, limit, equals, returned, overridden, builds, portion, part, concrete, sending, receiving]
-Code: [referr, factory, bean, loader, verbos, list, bean, ovid, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, mid, referral, single, message, messag, update, receiv, patient, unread, patient, edit, referrals, sender, details, viewed, prioriti, parameters, time, stamp, insert, remov, list, userid, map, sort, columns, initialize, lookup, put, patients, preceiver, psender, timestamp, priority, doquery, field, direction, dir, stmt, officevisits, visit, date, personnel, format, user, build, sort, beans, sortexp, pid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/RemoteMonitoringDAO.java
-Comments: [keeping, track, remote, monitoring, data, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, typical, list, patient, patient, retrieve, telemedicin, beans, conn, prepar, statement, remot, monitor, lists, returns, timelogged, time, logged, remotemonitoringdata, timestamp, upper, requested, type, data, telemedicine, information, store, pedometer, reading, height, weight, pedomet, report, role, person, reported, stats, method, number, entries, today, number, daili, representatives, represent, represente, show, provided, personnel, patients, bean, indicating, allowed, enter, successfully, remove, removed]
-Code: [remot, monitor, factory, data, bean, loader, list, personnel, list, telemedicin, bean, patient, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, data, log, arrai, patients, remove, monitored, size, values, patient, today, equals, pars, date, lower, upper, timestamp, time, day, worth, include, type, store, report, role, trust, height, weight, pedometer, pedomet, reading, sbp, systol, blood, pressure, dbp, diastol, glucose, glucos, level, number, daili, entries, exceed, systolic, blood, diastolic, representative, valid, update, time, logged, repres, rows, representer, valid, lists, personnel, permiss, pressur, allowed, level, height, weight, read, remov]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/ReportRequestDAO.java
-Comments: [handling, data, related, report, requests, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, typical, returns, full, bean, describing, request, unique, conn, prepar, statement, report, requester, mid, personnel, question, java, util, list, request, specific, patient, pid, patient, adds, date, made, status, approved, approv, person, approving, approval, rejected, rejecter, rejection, comment, viewed]
-Code: [report, request, factory, bean, loader, bean, request, connection, conn, prepar, statement, result, execut, query, load, single, stack, trace, util, close, list, requester, mid, patient, pid, patient, requests, date, status, requested, timestamp, java, sql, time, update, insert, approv, approved, reject, comment, rejected, viewed, view]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/RiskDAO.java
-Comments: [finding, risk, factors, patient, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, method, implemented, famili, reasons, definitions, family, members, change, centralize, make, bit, nicer, executes, query, member, slow, refactor, simple, patient, question, icd, lower, bound, codes, upper, indicating, match, range, returns, childhood, infection, exact, list, listed, conn, prepar, statement, diagnosis, ovd, offic, visits, patients, smoked, life, person, health, information, smoker, diagnosed, lower, upper]
-Code: [risk, factory, famili, history, patient, icd, lower, upper, list, member, bean, members, fam, member, prior, diagnoses, mid, parents, siblings, childhood, infection, codes, note, datediff, call, function, takes, difference, dates, returns, terms, days, years, counting, leap, connection, conn, prepar, statement, ovd, visit, patientid, visitdate, dateofbirth, icdcode, creat, prepared, length, execut, query, rows, stack, trace, util, close, str, substring, start, smoked, lower, upper]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/SurveyDAO.java
-Comments: [handling, survey, data, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, typical, insert, survei, bean, representing, user, responses, inserted, date, completed, office, visit, creates, instance, returns, unique, question, conn, prepar, statement, visit, wondering, indicating, count]
-Code: [survei, factory, loader, complet, survey, bean, date, connection, conn, prepar, statement, visit, timestamp, java, sql, time, execut, update, wait, room, minutes, exam, satisfaction, treatment, stack, trace, util, close, data, result, query, load, single, completed]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/SurveyResultDAO.java
-Comments: [handling, survey, results, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, typical, returns, correspond, zip, zipcode, interested, specialty, java, util, list, survei, result, beans, sql, append, count, select, personnel, officevisits, mid, percent, satisfact, hospital, hospit, unique, trust, querying, representing, assign, hos]
-Code: [survei, result, factory, bean, loader, list, bean, zip, specialty, connection, conn, prepar, statement, buffer, sql, append, select, mid, firstname, lastname, address, city, state, hospit, avg, wait, room, minutes, avg, exam, visit, satisfaction, treatment, satisfation, hcpid, substr, ovsurvey, personnel, officevisits, visitid, equals, group, order, substring, load, execut, query, stack, trace, util, close, hospital, hosid, assign, hos]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/TransactionDAO.java
-Comments: [logging, mechanism, stands, database, access, object, intended, reflections, table, time, complex, sets, queries, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, transaction, log, conn, prepar, statement, transact, time, logged, giving, person, type, representing, log, user, info, meaning, secondari, depending, typically, acted, note, subtransaction, specifics, posterity, list, transactions, patient, record, patient, question, java, util, fetch, mid, dlhcp, start, index, pulling, entries, range, number, retrieve, beans, affecting, starting, entry, dates, lower, date, upper, ending, timestamp, operation, profile, oper, bean, sort, role]
-Code: [transact, factory, bean, loader, oper, profil, list, bean, transactions, connection, conn, prepar, statement, result, execut, query, load, stack, trace, util, close, log, transaction, type, secondari, info, log, update, record, accesses, patient, dlhcp, role, viewabl, str, time, logged, sort, roles, affecting, mid, java, date, start, range, exclude, hidden, timestamp, time, lower, upper, day, worth, include, profile, count, total, personnel, single, users, equals, emergency, responder, uap, hcp, declar, patient, represente, representatives, represent, personal, health, representative, array, size, compar, ignor]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/mysql/VisitRemindersDAO.java
-Comments: [queries, related, patient, reminders, stands, database, access, object, intended, reflections, table, time, complex, sets, extra, added, assume, data, validated, correct, setters, parameter, factory, accessed, link, obtaining, connections, accessing, author, andy, typical, returns, list, patients, hcpid, question, java, util, visit, reminder, forms, means, alive, office, diagnosed, diabetes, asthma, circulatory, disease, people, flu, shot, years, months, current, calendar, year, determines, date, calls, methods, missed, check, patient, birthday, fall, bug, fix, range, based, january]
-Code: [visit, remind, factory, list, form, patients, hcpid, temp, form, loader, arrai, connection, conn, prepar, statement, result, hid, dhcp, patientid, phone, declaredhcp, dateofdeath, dateofbirth, execut, query, load, single, stack, trace, util, close, diagnos, needers, dcode, date, ovd, offic, visits, diagnosis, patient, date, death, mid, size, flag, flu, shot, delinquents, thi, year, current, month, range, flag, type, java, sql, september, december, lastname, firstname, procedure, visitid, visitdate, medication, start, end, flu, shot]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/dao/ProductionConnectionDriver.java
-Comments: [produces, connection, tomcat, pool, defined, context, xml, running, unit, tests, run, author, andy]
-Code: [product, connect, driver, initi, context, production, situations, special, unit, test, connection, data, source, lookup, java, comp, env, jdbc, itrust, naming, message]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/DateUtil.java
-Comments: [extra, date, utilities, author, andy, returns, yyyy, format, years, ago, simpl, date, time, checks, range, months, strong, agnostic, year, wraps, month, definition, falls, including, modular, arithmetic, adjust, values, valid, month, current, util, number, days, pass, sql, objects, year, day, object]
-Code: [date, util, year, ago, years, time, current, time, millis, month, range, java, date, month, calendar, cal, gregorian, xyear, ago, sql, ldate, dai, days, actual, maximum]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/DBUtil.java
-Comments: [database, utilties, author, andy, check, obtain, connection, close, prepared, statement, proper, conn, returns, generated, auto, increment, column, note, transaction, problems, insert, basis, documentation, location, confirm, link, http, dev, mysql, doc, refman, unique, html, auto, increment, test]
-Code: [util, obtain, product, instance, factory, connection, close, close, conn, prepar, statement, err, closing, connections, stack, trace, insert, result, creat, execut, query]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/EmailUtil.java
-Comments: [sends, email, users, train, spammers, inserts, database, put, actual, replace, stuff, javax, mail, author, andy]
-Code: [email, util, factory, sending, emails, throwaway, account, waste, bandwidth, suspicious, send, java, google, time, send, email, fake, record]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/BloodType.java
-Comments: [blood, types, author, andy]
-Code: [blood, type, pos, neg, parse, type, str, values, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/Ethnicity.java
-Comments: [ethnicities, represented, trust]
-Code: [ethnicity, caucasian, african, american, african, hispanic, american, indian, asian, parse, input, values, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/Gender.java
-Comments: [male, female, provided, incomplete, forms, patient, discretion]
-Code: [gender, male, female, parse, input, values, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/PrescriptionAlerts.java
-Comments: [prescription, alerted, emergency, reports, future, abstracted, database, table, changed, runtime, author, andy]
-Code: [prescript, alerts, tetracycline, prioglitazone, alert, thisone, values, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/Role.java
-Comments: [trust, user, roles, patient, administrator, tester, consult, requirements, contextual, meanings, individual, choices]
-Code: [role, patient, patients, personnel, hcp, uap, admin, pha, tester, user, role, table, mid, digit, parse, str, values, lower, equals, illeg, argument, exist]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/SortDirection.java
-Comments: [sorting, direction, dynamically, build, queries]
-Code: [sort, direction, dir, parse, str, sort, values, lower, equals, ascending, descending, illeg, argument, exist]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/State.java
-Comments: [wonderful, states, author, andy]
-Code: [state, alabama, alaska, arizona, arkansas, california, colorado, connecticut, delaware, district, columbia, florida, georgia, hawaii, idaho, illinois, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, montana, nebraska, nevada, hampshire, jersey, mexico, york, north, carolina, dakota, ohio, oklahoma, oregon, pennsylvania, rhode, island, south, tennessee, texas, utah, vermont, virginia, washington, west, wisconsin, wyoming, abbrev, show, intentional, parse, values, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/enums/TransactionType.java
-Comments: [transaction, types, order, producing, operational, profile, transact, identification, description, basic, event, action, phrase, patient, centered, english, sentence, describing, action, activity, feeds, patient, viewable, displayed, feed, statement, pulling, events, display, access, log, excluding]
-Code: [transact, type, failed, login, authenticate, unsuccessfully, user, views, homepage, viewed, trust, occured, caught, caused, unhandled, view, global, preferences, edit, edited, peferences, create, patient, created, account, disable, disabled, information, disbaled, assign, hospital, assigned, unassign, unassigned, personnel, member, succeded, successfully, authenticated, logged, inactivity, due, password, changed, demographics, upload, photo, uploaded, record, remove, removed, photograph, declare, declared, undeclare, undeclared, access, log, medical, records, personal, health, basic, enter, charts, office, visits, visit, prescription, added, lab, procedure, diagnosis, immunization, operational, profile, representative, drug, physical, services, service, file, risk, factors, proactively, determine, care, determined, listing, report, death, trends, emergency, appointment, schedule, appointments, scheduled, delete, canceled, conflict, overrided, request, submitted, requested, approved, rejected, requests, comprehensive, satisfaction, survey, completed, physician, results, laboratory, reassign, test, technician, tech, commentary, marked, queue, recorded, received, send, email, history, list, find, experience, found, messages, message, inbox, outbox, renewal, expired, prescriptions, confirm, confirmed, diagnoses, refer, consultations, referred, referral, consultation, modify, modified, cancel, monitoring, telemedicine, permissions, data, remote, levels, reported, reports, adverse, event, reporting, reviewed, details, chart, interaction, warning, overrode, overriding, reason, medication, interactions, deleted, calendar, upcoming, notifications, notification, center, activity, feed, specific, instructions, instruction, statistics, count, epidemic, detection, group, patient, viewabl, str, values, viewable, dlhcp, hidden, description, action, phrase, parse, illeg, argument, transaction, exists]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/DBException.java
-Comments: [reasoning, wrapper, security, thrown, back, begin, reveal, details, database, knowing, bad, make, vague, description, track, debugging, testing, purposes, author, andy, responsible]
-Code: [trust, serial, version, sql, database, occurred, log, console, stacktrace, extend, message]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/ErrorList.java
-Comments: [validators, create, list, messages, author, andy, adds, message, java, empty, returns, errors]
-Code: [list, iterable, arrai, message, equals, messag, errors, size, iterator]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/FormValidationException.java
-Comments: [specifically, action, involves, correct, proper, submission, web, form, validation, handled, series, classes, incorrect, incomplete, thrown, messages, passed, list, parameters, method, returned, special, box, data, type, object, returns, java, util, strings, message, displayed, top, trust, page, exceptions, formatting, place, output, writer, formatted]
-Code: [form, valid, serial, version, list, messages, msg, messag, message, form, validated, correctly, field, properly, filled, jsp, writer, information, valid, div, escap, utils, html]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/iTrustException.java
-Comments: [specialized, displaying, trust, messages, handled, handler, typical, message, displayed, screen, user, general, security, reasons, exceptions, show, lot, technical, detail, delegated, subclass]
-Code: [trust, serial, version, message, occurred, log, details, extend, extended, information]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/NoHealthRecordsException.java
-Comments: [message, thrown, checking, health, risk, indicators, patient, records, entered, separate, trust, handling, slightly, passes, pre]
-Code: [health, record, trust, patient, health, records, recorded, risks, calculated, exist, serial, version]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/PrescriptionFieldException.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/PrescriptionFieldException.java
 Comments: [author, student]
 Code: [prescript, field, extend, trust, serial, version, messag]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/PrescriptionWarningException.java
 Comments: [author, student, warn, provid, wrong, prescript, displai, messag]
 Code: [prescript, warn, extend, trust, serial, version, list, displai, messag, buffer, buf, append]
@@ -1846,29 +945,15 @@ Code: [html, encod, input, replac, site, http]
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/Localization.java
 Comments: [provid, singleton, access, current, local, trust, possibl, load, countri, languag, file, method, mai, make, thread, safe, ani, multithread, instanc]
 Code: [local, current, instanc]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/exception/PrescriptionWarningException.java
-Comments: [author, student, warning, providing, wrong, prescription, warnings, display, message]
-Code: [prescript, warn, trust, serial, version, list, warnings, displai, message, buffer, buf, warning, append]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/HtmlEncoder.java
-Comments: [escapes, key, characters, checking, author, andy, input, check, escape, checks, http]
-Code: [html, encoder, encode, input, str, replac, site, http]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/Localization.java
-Comments: [singleton, accessing, current, locale, trust, possibly, load, country, language, file, returns, method, make, thread, safe, multithreading, localization, instance]
-Code: [localization, locale, current, instance]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/Messages.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/Messages.java
 Comments: []
 Code: [messag, ncsu, csc, itrust, resourc, bundl, local, instanc, current, kei, miss]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/messages.properties
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/messages.properties
 Comments: []
 Code: [report, request, bean, approv, reject, view, prescript, record, action, undesign, personnel, access, inform, pleas, log, trust, renew, patient, exist, number, offic, visit, repres, contact, represente, valid]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/ParameterUtil.java
 Comments: [provid, method, convert, map, type, check, hashmap, author, andi]
 Code: [paramet, map, convert, kei, valu, put, els]
@@ -1876,21 +961,11 @@ Code: [paramet, map, convert, kei, valu, put, els]
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/RandomPassword.java
 Comments: [gener, random, charact, author, andi]
 Code: [random, password, rand]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/ParameterUtil.java
-Comments: [utility, method, converts, map, container, type, checked, hashmap, author, andy, params, convert, converted]
-Code: [paramet, util, map, convert, params, object, key, kei, put]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/RandomPassword.java
-Comments: [generates, random, characters, author, andy, returns]
-Code: [random, password, random, rand, str]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/recaptcha.properties
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/recaptcha.properties
 Comments: []
 Code: [api, kei, lcpzb, gbsc, fer, juo]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/DemographicReportFilter.java
 Comments: [filter, type, valu, date, split, length, simpl, format, frmt, yyyi, pars, patient, birth, compar]
 Code: [demograph, report, filter, extend, type, valu, famili, factori, ignor, list, patient, bean, prune, arrai, empti, gender, email, street, address, citi, state, zip, phone, emerg, member, parent, children, child, sibl, val, integ, pars]
@@ -1898,21 +973,11 @@ Code: [demograph, report, filter, extend, type, valu, famili, factori, ignor, li
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/MedicalReportFilter.java
 Comments: [filter, type, valu, date, split, length, simpl, format, frmt, yyyi, pars, list, offic, visit, bean, patient, compar]
 Code: [medic, report, filter, extend, type, valu, patient, allergi, offic, visit, factori, ignor, list, bean, prune, arrai, empti, prescript, current, format, diagnosi, diagnos, procedur, simpl, date, frmt, yyyi, pars, compar]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/DemographicReportFilter.java
-Comments: [filter, type]
-Code: [demograph, report, filter, filter, type, famili, factory, type, values, ignor, list, patient, bean, patients, prune, arrai, empty, patient, gender, email, street, address, city, state, zip, phone, emerg, member, parents, parent, equals, children, child, siblings, sibling, dates, split, length, simpl, date, format, frmt, yyyy, date, parse, birth, compar, val, integer, pars, age]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/MedicalReportFilter.java
-Comments: [filter, type]
-Code: [medic, report, filter, filter, type, patient, allergi, offic, visit, factory, type, values, ignor, list, bean, patients, prune, arrai, empty, patient, allergies, allergy, prescript, prescriptions, current, prescription, medication, formatted, diagnosi, diagnoses, diagnosis, dates, split, length, simpl, date, format, frmt, yyyy, date, parse, visits, visit, compar, procedur, procedures, procedure]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/PersonnelReportFilter.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/PersonnelReportFilter.java
 Comments: []
 Code: [personnel, report, filter, extend, type, valu, patient, factori, ignor, list, bean, prune, arrai, empti, dlhcp, declar, full]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/ReportFilter.java
 Comments: [author, winslow, patient]
 Code: [report, filter, list, patient, bean, valu]
@@ -1980,81 +1045,11 @@ Code: [type, diabet, risk, extend, checker, factori, patient, health, record, qu
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/Type2DiabetesRisks.java
 Comments: [check, patient, risk, type, diabet, detail, method, doe, link, checker, author, andi]
 Code: [type, diabet, risk, extend, checker, factori, patient, health, record, qualifi, diseas, protect, list, factor, arrai, ethnic, hispan, african, american, indian, asian, weight, current, hypertens, cholesterol, prior, diagnosi, famili, histori]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/report/ReportFilter.java
-Comments: [author, winslow, patients]
-Code: [report, filter, list, patient, bean, patients, filter]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/ChronicDiseaseMediator.java
-Comments: [figures, risk, checker, strategy, author, andy, factory, patient, sets, list, checkers, creating, perform, checks, pid, question, health, record, diseases]
-Code: [chronic, diseas, mediator, list, risk, checker, checkers, factory, pid, health, record, arrai, heart, risks, type, diabet, risk, diseases]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/AgeFactor.java
-Comments: [risk, factor, checking, person, age, link, patient, risk, details, method, typically, author, andy]
-Code: [factor, patient, risk, bean, patient, age, description]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/ChildhoodInfectionFactor.java
-Comments: [checks, patient, diagnoses, childhood, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [childhood, infect, factor, patient, risk, icd, codes, factory, mid, clone, description, patient, viral, infection, childhood, increase, risk, diesease, err, giving]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/CholesterolFactor.java
-Comments: [checks, cholesterol, threshold, patient, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [cholesterol, factor, patient, risk, hdl, threshold, ldl, tri, health, record, current, description, patient, bad, cholesterol, tri]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/EthnicityFactor.java
-Comments: [checks, ethnicity, patient, matches, risk, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [ethnic, factor, patient, risk, ethnicity, risk, bean, patient, risks, clone, description, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/FamilyHistoryFactor.java
-Comments: [checks, patient, family, history, diagnosis, range, delegates, straight, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [famili, histori, factor, patient, risk, factory, icd, upper, lower, description, patient, family, history, disease, stack, trace]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/GenderFactor.java
-Comments: [checks, patient, gender, matches, risk, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [gender, factor, patient, risk, bean, patient, gender, description, lower, equals]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/HypertensionFactor.java
-Comments: [checks, patient, blood, pressure, threshold, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [hypertens, factor, patient, risk, systol, threshold, diastol, health, record, current, description, patient, hypertension, blood, pressur, systolic, diastolic]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/PatientRiskFactor.java
-Comments: [risk, factors, risk, factor, delegates, version, caches, result, checked, author, andy, textual, description, patient, status, causing, indicating, increased]
-Code: [patient, risk, factor, risk, description]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/PriorDiagnosisFactor.java
-Comments: [checks, prior, diagnoses, delegatin, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [prior, diagnosi, factor, patient, risk, factory, lower, upper, description, patient, related, diagnoses, stack, trace]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/SmokingFactor.java
-Comments: [risk, factor, delegates, patient, smoked, life, link, patient, risk, details, method, typically, author, andy]
-Code: [smoke, factor, patient, risk, factory, description, patient, smoker, smoked, stack, trace]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/factors/WeightFactor.java
-Comments: [checks, patient, body, mass, index, threshold, link, patient, risk, factor, details, method, typically, author, andy]
-Code: [weight, factor, patient, risk, health, record, current, bmi, threshold, description, patient, body, mass, index, bmi, bodi, mass, infinite]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/HeartDiseaseRisks.java
-Comments: [checks, patient, risk, heart, disease, details, method, link, risk, checker, author, andy]
-Code: [heart, diseas, risks, risk, checker, factory, patient, health, record, qualifi, disease, list, factor, factors, arrai, gender, patient, gender, male, ethnic, hispanic, african, american, american, indian, weight, current, record, hypertens, cholesterol, smoke, prior, diagnosi, famili, histori, heart]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/RiskChecker.java
-Comments: [number, utlity, methods, checking, risks, extending, fill, information, risk, patient, risk, factors, actual, subclasses, author, andy, disease, checked, java, util, list, increasing, patients, indicating, patient, increased, method, exists, purely, performance, stop, hit, threshold, cached, factor, implementors, querying]
-Code: [risk, checker, patient, bean, patient, health, record, current, factory, record, list, records, size, factor, diseas, factors, qualifi, disease, risk, num, risks, qualifies, threshold, arrai]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/Type1DiabetesRisks.java
-Comments: [checks, patient, risk, type, diabetes, details, method, link, risk, checker, author, andy]
-Code: [type, diabet, risks, risk, checker, factory, patient, health, record, qualifi, disease, patient, age, list, factor, diseas, factors, arrai, ethnic, ethnicity, caucasian, famili, histori, childhood, infect, diabetes]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/risk/Type2DiabetesRisks.java
-Comments: [checks, patient, risk, type, diabetes, details, method, link, risk, checker, author, andy]
-Code: [type, diabet, risks, risk, checker, factory, patient, health, record, qualifi, disease, patient, age, list, factor, diseas, factors, arrai, ethnic, hispanic, african, american, american, indian, asian, weight, current, record, hypertens, cholesterol, prior, diagnosi, famili, histori, diabetes]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/server/ProfilePhotoServlet.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/server/ProfilePhotoServlet.java
 Comments: []
 Code: [profil, photo, servlet, extend, http, serial, version, factori, dao, protect, request, req, respons, resp, content, type, imag, jpg, log, pars, session, attribut, pid, product, instanc, buffer, write, output, stream, trust, stack, trace]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/server/SessionTimeoutListener.java
 Comments: [listen, time, user, pre, specifi, limit, special, factori, check, timeout, call, http, session, creat, method, pull, databas, properti, arg, occur, max, inact, interv, min, declar, complianc, interfac, implement, noth]
 Code: [session, timeout, listen, implement, http, factori, product, instanc, creat, event, arg, min, access, err, unabl, minut, stack, trace, destroi]
@@ -2086,49 +1081,15 @@ Code: [advers, event, valid, extend, bean, form, list, check, format, comment, d
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/AllergyBeanValidator.java
 Comments: [valid, allergi, link, edit, offic, visit, action, author, andi, perform, act, bean, question, vari, depend, type, doe, succe, form, thrown]
 Code: [allergi, bean, valid, extend, form, list, check, format, descript]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/server/SessionTimeoutListener.java
-Comments: [listener, time, user, pre, limit, specialized, takes, factory, checking, timeout, called, http, session, created, method, pulls, database, sets, property, arg, session, occurred, max, inact, interval, mins, declared, compliance, implemented]
-Code: [session, timeout, listener, http, factory, product, instance, created, event, arg, session, mins, access, err, unable, timeout, defaulting, minutes, stack, trace, destroyed]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/tags/ICD9CMLink.java
-Comments: [tag, utility, link, actual, site, author, andy]
-Code: [link, tag, page, context, parent, start, jsp, writer, write, href, http, icd, chrisendres, index, php, srchtype, diseases, srchtext, submit, search, action, stack, trace, end, release, valu]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/tags/PatientNavigation.java
-Comments: [tag, patient, navigation, bar, bottom, screen, page, arrays, make, accepts, author, andy]
-Code: [patient, navigation, tag, page, context, parent, elegant, solution, enums, displai, url, titles, health, records, basic, history, demographics, document, office, visit, risk, factors, prescriptions, edit, jsp, basic, patient, document, offic, chronic, diseas, risks, prescript, report, thi, title, start, jsp, writer, write, span, length, equals, href, trust, auth, hcp, uap, stack, trace, end, release, page]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/tags/StateSelect.java
-Comments: [tag, adds, select, states, link, state, selects, current, author, andy]
-Code: [state, select, tag, page, context, parent, start, jsp, writer, write, equals, option, state, values, selected, stack, trace, end, release]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/AddPatientValidator.java
-Comments: [validator, link, patient, action, checks, email, author, andy, performs, act, validating, bean, question, varies, depending, type, validation, succeed, form, valid, thrown, validated]
-Code: [patient, validator, bean, bean, validate, form, valid, list, check, format, email, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/AddPersonnelValidator.java
-Comments: [validator, link, patient, action, checks, email, author, andy, performs, act, validating, bean, question, varies, depending, type, validation, succeed, form, valid, thrown, validated]
-Code: [personnel, validator, bean, bean, validate, form, valid, list, check, format, email, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/AdverseEventValidator.java
-Comments: [validates, adverse, event, bean, link, advers, event, action, performs, act, validating, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [advers, event, validator, bean, bean, validate, form, valid, list, check, format, comment, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/AllergyBeanValidator.java
-Comments: [validator, validate, adding, allergy, link, edit, offic, visit, action, author, andy, performs, act, validating, bean, question, varies, depending, type, validation, succeed, form, valid, thrown, validated]
-Code: [allergi, bean, validator, bean, validate, form, valid, list, check, format, allergy, description, errors]
->>>>>>> Ignore this
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ApptBeanValidator.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ApptBeanValidator.java
 Comments: []
 Code: [appt, bean, valid, extend, form, list, comment, check, format, appoint]
 
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ApptTypeBeanValidator.java
+Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ApptTypeBeanValidator.java
 Comments: []
 Code: [appt, type, bean, valid, extend, form, list, check, format, appoint, durat]
 
-<<<<<<< HEAD
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/BeanValidator.java
 Comments: [valid, provid, method, check, format, field, specifi, bean, author, andi, type, nullabl, empti, java, otherwis, messag, conjunct, link, list, valu, doubl, proper, gender, gen, integ, correct, rang, lower, upper, fall, fit]
 Code: [bean, valid, form, protect, check, format, valu, nullabl, messag, descript, els, matcher, match, doubl, gender, gen, lower, upper, integ, number, decim, greater]
@@ -2220,97 +1181,4 @@ Code: [survei, search, valid, extend, bean, result, form, list, check, format, z
 Path: /Volumes/Media/Users/Christian/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ValidationFormat.java
 Comments: [valid, format, fit, author, andi, male, femal]
 Code: [valid, format, letter, space, xxx, xxxx, digit, number, begin, admin, hcp, uap, test, alphanumer, charact, symbol, punctuat, alpha, capit, xxxxx, male, femal, onli, integ, plu, height, decim, place, weight, specifi, patient, follow, anoth, exclud, quotat, mark, transit, receiv, pend, complet, ten, hex, option, minu, sign, point, includ, newlin, greater, ampersand, prioriti, pattern, descript, messag, compil]
-=======
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/BeanValidator.java
-Comments: [validators, utility, methods, checking, formatting, field, bean, validated, author, andy, type, check, format, nullable, empty, java, message, returned, conjunction, link, list, doubl, proper, gender, gen, integer, correct, range, lower, upper, fits]
-Code: [bean, validator, validate, bean, form, valid, check, format, nullable, message, description, equals, matcher, matches, str, valu, doubl, gender, gen, lower, upper, integer, number, format, fall, returning, decimal, greater]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/DiagnosisBeanValidator.java
-Comments: [validates, author, andy, performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, link, form, valid, thrown, validated]
-Code: [diagnosi, bean, validator, bean, validate, form, valid, list, check, format, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/DrugInteractionValidator.java
-Comments: [validates, drug, interaction, bean, link, drug, interact, action, performs, act, validating, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [drug, interact, validator, bean, bean, validate, form, valid, list, check, format, drug, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/EditOfficeVisitValidator.java
-Comments: [validate, updating, office, visit, link, edit, offic, visit, action, author, andy, validator, valid, prescription, performs, act, validating, bean, question, varies, depending, type, validation, succeed, form, thrown, validated]
-Code: [edit, offic, visit, validator, bean, form, valid, prescription, validate, form, list, check, format, hcp, hospital, hospit, notes, patient, patient, visit, date, start, start, end, end, instructions, dosage, simpl, date, yyyy, parse, pars, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/EditPrescriptionsValidator.java
-Comments: [author, student, javadoc, ncsu, csc, itrust, validate, bean, validator, java, lang, object]
-Code: [edit, prescript, validator, bean, form, instructions, validate, form, valid, list, check, format, start, date, start, end, end, equals, description, dosage, simpl, date, yyyy, parse, prescription, pars, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/EMailValidator.java
-Comments: [performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, link, form, valid, thrown, validated]
-Code: [mail, validator, bean, messag, bean, validate, form, valid, list, check, format, body, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/HealthRecordFormValidator.java
-Comments: [validator, adding, health, information, basic, history, link, edit, health, histori, action, author, andy, performs, act, validating, bean, question, varies, depending, type, validation, succeed, form, valid, thrown, validated]
-Code: [health, record, form, validator, bean, form, validate, bean, valid, list, check, systolic, blood, pressure, blood, pressur, diastolic, cholesterol, cholesterol, triglycerides, tri, height, format, weight, smoker, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/HospitalBeanValidator.java
-Comments: [validates, input, hospital, beans, link, updat, hospit, list, action, author, andy, performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [hospit, bean, validator, bean, validate, form, valid, list, check, format, hospital, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/LabProcedureValidator.java
-Comments: [performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, link, form, valid, thrown, validated]
-Code: [lab, procedur, validator, bean, bean, validate, form, valid, list, check, format, loinc, commentary, results, status, rights, numer, result, length, numerical, upper, bound, upper, lower, lower, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/LOINCBeanValidator.java
-Comments: [validator, validate, cbean, performs, act, validating, bean, question, varies, depending, type, validation, succeed, link, form, valid, thrown, validated]
-Code: [bean, validator, cbean, validate, form, valid, list, lab, procedur, component, kind, property, lab, procedure, kind, check, format, laboratori, time, aspect, scale, type, method, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/MailValidator.java
-Comments: [performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, link, form, valid, thrown, validated]
-Code: [mail, validator, email, valid, email, form, val, valid]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/MedicationBeanValidator.java
-Comments: [validates, beans, link, updat, list, action, author, andy, performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [medic, bean, validator, bean, validate, form, valid, list, check, format, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/MessageValidator.java
-Comments: [validate, updating, office, visit, link, edit, offic, visit, action, author, andy]
-Code: [messag, validator, bean, bean, validate, form, valid, list, check, format, body, subject, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/OverrideReasonBeanValidator.java
-Comments: [validates, reason, beans, link, updat, reason, list, action, performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [overrid, reason, bean, validator, bean, validate, orc, form, valid, list, check, format, reason, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/PatientInstructionsBeanValidator.java
-Comments: [validates, patient, instructions, bean, javadoc, ncsu, csc, itrust, validate, bean, validator, java, lang, object]
-Code: [patient, instruct, bean, validator, bean, validate, form, valid, list, check, format, comments, comment, checks, length, url, url, valid, required, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/PatientValidator.java
-Comments: [validates, patient, bean, link, edit, patient, action, author, andy, performs, act, validating, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated, block, added, theme, tyler, arehart]
-Code: [patient, validator, bean, bean, validate, form, valid, list, check, format, date, birth, date, birth, str, death, death, equals, caus, future, pointer, ignore, email, street, address, street, city, state, zip, phone, number, emergency, contact, emerg, insurance, company, mother, mother, father, father, topical, notes, topic, credit, card, type, valid, credit, card, directions, home, direct, religion, language, spiritual, practices, spiritu, alternate, altern, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/PersonnelValidator.java
-Comments: [validates, personnel, bean, link, edit, personnel, action, author, andy, performs, act, validating, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [personnel, validator, bean, bean, validate, form, valid, list, check, format, street, address, street, city, state, zip, phone, number, email, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ProcedureBeanValidator.java
-Comments: [validates, link, updat, list, action, author, andy, performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [procedur, bean, validator, bean, validate, form, valid, list, check, format, description, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ReferralBeanValidator.java
-Comments: [validates, link, updat, list, action, author, andy, performs, act, validating, bean, question, varies, depending, type, validator, validation, succeed, form, valid, thrown, validated]
-Code: [referr, bean, validator, bean, validate, form, valid, list, check, format, notes, details, priority, integer, patient, patient, receiver, receiv, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/RemoteMonitoringDataBeanValidator.java
-Comments: [validator, validate, adding, remote, monitoring, data, link, remot, monitor, data, action, performs, act, validating, bean, question, varies, depending, type, validation, succeed, form, valid, thrown, validated]
-Code: [remot, monitor, data, bean, validator, bean, validate, form, valid, list, skip, validation, values, submitted, systol, blood, pressure, check, format, systolic, blood, diastol, diastolic, glucos, level, glucose, pedomet, reading, pedometer, height, weight, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/SecurityQAValidator.java
-Comments: [validates, security, question, answer, follow, format, validator, states, reset, password, link, secur, question, action, author, andy, performs, act, validating, bean, varies, depending, type, validation, succeed, form, valid, thrown, validated]
-Code: [secur, validator, bean, validate, bean, form, valid, list, form, confirm, answer, confirm, empty, equals, security, answers, match, check, format, question, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/SurveySearchValidator.java
-Comments: [validator, zip, entered, user, searches, survey, results, performs, act, validating, bean, question, varies, depending, type, validation, succeed, link, form, valid, thrown, validated]
-Code: [survei, search, validator, bean, result, bean, validate, form, valid, list, check, format, zip, pzip, errors]
-
-Path: /Users/adamthrash/Downloads/iTrust/src/edu/ncsu/csc/itrust/validate/ValidationFormat.java
-Comments: [validation, formats, fit, author, andy]
-Code: [valid, format, letters, space, xxx, xxxx, digits, digit, number, beginning, admin, hcp, uap, test, alphanumeric, characters, symbols, alphanumerics, punctuation, alpha, numberics, capital, xxxxx, male, female, numbers, integer, letter, height, decimal, place, weight, patients, excluding, quotation, marks, transit, received, testing, pending, completed, ten, hex, valid, optional, minus, sign, point, including, newline, greater, ampersand, priority, pattern, description, message, compile]
->>>>>>> Ignore this
 

@@ -1,0 +1,10 @@
+View Access Log Use Case
+A patient is a registered user of the iTrust Medical Records system [UC1]. The patient has authenticated himself or herself in the iTrust Medical Records system [UC3]. 
+The patient chooses to view his or her access log. The patient then chooses the beginning and end date for the period of time they would like to view their access log for [S1, S2]. The resulting list should include the following for each access: 
+Name of accessor (with a link to contact information if the viewer is an LHCP)
+Role of accessor relative to the patient
+Date and time of access
+Transaction Type (See Section 6.3)
+The event is logged [UC5]. 
+The patient also chooses to view the list sorted by dates, most recent access first.
+The patient also chooses to view the list sorted by the role of the accessor relative to the patient (personal health representative, DLHCP, LHCP, UAP, Emergency Responder; any order is fine as long as the list is sorted by role) as well as by date for each role type. 
