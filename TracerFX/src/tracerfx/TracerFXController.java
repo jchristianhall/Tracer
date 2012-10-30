@@ -151,13 +151,13 @@ public class TracerFXController implements Initializable
     {
       if (indexArray.get(i).getCommentArray() == null)
       {
-        retriever = new Retriever(indexedReq,indexArray,false);
+        //retriever = new Retriever(indexedReq,indexArray,correctFileArray,false);
       }
       else
       {
-        retriever = new Retriever(indexedReq,indexArray,true);
+        //retriever = new Retriever(indexedReq,indexArray,correctFileArray,true);
       }
-      log.appendText(retriever.getF1() + " " + retriever.getF2() + "\n");
+      //log.appendText(retriever.getF1() + " " + retriever.getF2() + "\n");
     }
     
     // Testing to see if you're actually pulling in the files; shows in log.
