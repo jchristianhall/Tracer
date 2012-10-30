@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="545.0" xmlns:fx="http://javafx.com/fxml" fx:controller="tracerfx.TracerFXController">
+  <children>
+    <ChoiceBox fx:id="indexType" layoutX="15.0" layoutY="15.0" prefHeight="25.0" prefWidth="200.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Choose Type to Index" />
+          <String fx:value="Source Code" />
+          <String fx:value="Requirement" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Button fx:id="openButton" layoutX="15.0" layoutY="50.0" mnemonicParsing="false" onAction="#indexProcess" prefHeight="25.0" prefWidth="200.0" text="Choose File" />
+    <TextArea fx:id="correctFiles" layoutX="15.0" layoutY="85.0" prefHeight="75.0" prefWidth="200.0" promptText="Input correct file list" wrapText="true" />
+    <Button fx:id="retrieveButton" layoutX="15.0" layoutY="170.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Retrieve Files" />
+    <TextArea fx:id="log" layoutX="230.0" layoutY="15.0" prefHeight="180.0" prefWidth="300.0" wrapText="true" />
+  </children>
+</AnchorPane>

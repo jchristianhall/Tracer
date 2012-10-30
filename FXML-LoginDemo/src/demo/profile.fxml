@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (c) 2008, 2012 Oracle and/or its affiliates.
+ * All rights reserved. Use is subject to license terms.
+ *
+ * This file is available and licensed under the following license:
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ *  - Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  - Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the distribution.
+ *  - Neither the name of Oracle Corporation nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Profile" styleClass="profile" xmlns:fx="http://javafx.com/fxml" fx:controller="demo.ProfileController">
+    <Button fx:id="update" maxHeight="2.0" onAction="#processUpdate" text="Update" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="168.0" />
+    <Label fx:id="message" layoutX="56.0" layoutY="77.0" text="Please review your profile data." />
+    <Label layoutX="56.0" layoutY="123.0" text="User:" />
+    <Label layoutX="56.0" layoutY="224.0" text="Phone:" />
+    <Label layoutX="56.0" layoutY="173.0" text="Email:" />
+    <TextField fx:id="user" editable="false" layoutX="149.0" layoutY="120.0" maxWidth="2.0" minHeight="30.0" minWidth="215.0" prefHeight="30.0" prefWidth="215.0" />
+    <TextField fx:id="email" layoutX="149.0" layoutY="171.0" maxWidth="2.0" minHeight="30.0" minWidth="215.0" prefHeight="30.0" prefWidth="215.0" />
+    <TextField fx:id="phone" layoutX="149.0" layoutY="224.0" maxWidth="2.0" minHeight="30.0" minWidth="215.0" prefHeight="30.0" prefWidth="215.0" />
+    <CheckBox fx:id="subscribed" layoutX="402.0" layoutY="120.0" text="Subscribed to NewsLetter" />
+    <Separator layoutX="380.0" layoutY="110.0" orientation="VERTICAL" prefHeight="155.0" />
+    <Hyperlink fx:id="logout" layoutY="24.0" onAction="#processLogout" text="logout" AnchorPane.rightAnchor="52.0" />
+    <Button fx:id="Button" defaultButton="true" disable="true" maxHeight="2.0" maxWidth="100.0" minWidth="100.0" onAction="#processLogout" prefWidth="100.0" text="Continue" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="52.0" />
+    <Label fx:id="success" layoutX="150.0" layoutY="450.0" opacity="0.0" text="Profile successfully updated!" />
+    <Label layoutX="56.0" layoutY="284.0" text="Address:" />
+    <TextArea fx:id="address" maxHeight="50.0" maxWidth="448.0" minHeight="50.0" minWidth="100.0" prefHeight="50.0" prefWidth="448.0" AnchorPane.bottomAnchor="109.0" AnchorPane.leftAnchor="149.0" AnchorPane.rightAnchor="52.0" AnchorPane.topAnchor="289.0" />
+    <stylesheets>
+        <URL value="@demo.css" />
+    </stylesheets>
+</AnchorPane>
+

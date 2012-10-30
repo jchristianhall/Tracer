@@ -5,3 +5,9 @@ Plan for Indexer.pages
 /Documentation/
 /Tracer/.DS_Store
 /Group Functions/.DS_Store
+/TracerFX/nbproject/private/
+/TracerFX/dist/
+/TracerFX/build/
+/FXML-LoginDemo/nbproject/private/
+/FXML-LoginDemo/build/
+/FXML-LoginDemo/dist/

@@ -22,6 +22,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
@@ -63,6 +64,15 @@ public class Tracer extends JPanel
     buttonPanel.add(indexerOptions);
     buttonPanel.add(openButton);
     
+    // Correct files
+    JLabel cfLabel = new JLabel("Input Correct File Names");
+    JPanel titlePanel = new JPanel();
+    titlePanel.add(cfLabel);
+    correctFiles = new JTextArea(5,10);
+    correctFiles.setMargin(new Insets(5,5,5,5));
+    correctFiles.setEditable(true);
+    JScrollPane cfScrollPane = new JScrollPane(correctFiles);
+    
     // Log
     log = new JTextArea(5,20);
     log.setMargin(new Insets(5,5,5,5));
@@ -71,6 +81,8 @@ public class Tracer extends JPanel
 
     // Add to current panel
     add(buttonPanel, BorderLayout.PAGE_START);
+    add(titlePanel, BorderLayout.LINE_START);
+    add(cfScrollPane, BorderLayout.LINE_END);
     add(logScrollPane, BorderLayout.PAGE_END);
   }
 
@@ -98,7 +110,8 @@ public class Tracer extends JPanel
   }
 
   /**
-   * @about Override method for reacting to button press
+   * @about Override method for reacting to button press, also detects combo box
+   * selection and updates attribute variable accordingly.
    * @param e - the action event doing the firing
    */
   @Override
@@ -159,8 +172,7 @@ public class Tracer extends JPanel
           reqArray = fileToIndex.getReqArray();
           long end = System.nanoTime();
           double duration = (end - start)/1000000000.0;
-          
-          System.out.print(reqArray.toString());
+
           // Add results to log
           log.append("Requirement indexing took " + duration + " seconds.\n");
         }
