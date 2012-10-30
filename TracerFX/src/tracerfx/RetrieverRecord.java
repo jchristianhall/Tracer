@@ -1,10 +1,9 @@
 /**
- * COPYRIGHT (C) 2012 Adam Thrash. All Rights Reserved.
- * Second retriever file for part 1 of software traceability project
- * Helper functions for retriever, contains set overlap
- * CSE 4214 | Retriever
+ * RetrieverRecord object for part 2 of software traceability project
+ * Helps retriever functions
+ * CSE 4214 | RetrieverRecord
  * @author Adam Thrash
- * @version 1.0 9.10.12
+ * @version 1.0 25.10.12
  */
 package tracerfx;
 
@@ -15,14 +14,14 @@ public class RetrieverRecord {
     private float score;
     private ArrayList<String> words;
     
-    /**
-     *
-     * @param requirement: an Indexer object of the indexed requirement to 
-     *                     search
-     * @param file: an Indexer object of the source code file
-     * @param commentsIncluded: a Boolean value specifying whether comments 
-     *                          should be included in the retrieval
-     */
+   /**
+   * @about Constructor creates RetrieverRecord with fileName of source file
+   * and score
+   * @param requirement - the requirement that is being traced
+   * @param file - an Indexer object of a source code file
+   * @param includeComments - a flag to indicate whether comments should be
+   * retrieved
+   */
     public RetrieverRecord(Indexer requirement, Indexer file, boolean includeComments){
         words = file.getCodeArray();
         fileName = file.getPathName();
@@ -34,6 +33,12 @@ public class RetrieverRecord {
         
     }
     
+       /**
+   * @about score the retrieval using set overlap
+   * @param arrayOne - the array of words for requirements
+   * @param arrayTwo - the array of words for the source code file
+   * @return score
+   */
     private float setOverlap(ArrayList<String> arrayOne, ArrayList<String> arrayTwo){
         int inCommon = 0;
         
@@ -50,6 +55,10 @@ public class RetrieverRecord {
         
     }
     
+   /**
+   * @about getters for filename and score
+   * @return fileName or score
+   */
     public String getFileName(){
         return fileName;
     }
