@@ -32,13 +32,13 @@ public class Indexer
   {
     pathName = file.getAbsolutePath();
     codeArray = new ArrayList<String>();
-    commentArray = new ArrayList<String>();
     
     // Indexer process for source code
     if(isCode)
     {
       try
       {
+        commentArray = new ArrayList<String>();
         separating(file);
         commentArray = splitting(commentArray);
         codeArray = splitting(codeArray);

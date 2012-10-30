@@ -30,16 +30,15 @@ public class TracerFXController implements Initializable
   
   // Logic variables
   int fileCount = 0, dirCount = 1;
-  public ArrayList<Indexer> indexList;
-  public ArrayList<String> reqArray;
+  public ArrayList<Indexer> indexArray;
+  public Indexer indexedReq;
   
   /**
    * @about Constructor that creates new index and requirements arrays.
    */
   public TracerFXController ()
   {
-    indexList = new ArrayList<Indexer>();
-    reqArray = new ArrayList<String>();
+    indexArray = new ArrayList<Indexer>();
   }
   
   /**
@@ -92,9 +91,7 @@ public class TracerFXController implements Initializable
       {
         // Go over files and calcuate directories, files, and time
         long start = System.nanoTime();
-        Indexer fileToIndex = new Indexer(file, false);
-        reqArray.clear();
-        reqArray = fileToIndex.getReqArray();
+        indexedReq = new Indexer(file, false);
         long end = System.nanoTime();
         double duration = (end - start)/1000000000.0;
 
@@ -133,7 +130,7 @@ public class TracerFXController implements Initializable
       {
         fileCount++;
         Indexer fileToIndex = new Indexer(file, true);
-        indexList.add(fileToIndex);
+        indexArray.add(fileToIndex);
       }
     }
   }
@@ -147,8 +144,21 @@ public class TracerFXController implements Initializable
   public void retrieverProcess(ActionEvent e)
   {
     Object[] correctFileArray = correctFiles.getParagraphs().toArray();
+    Retriever retriever;
     
     // Do retriever things here. correctFileArray is what you think it is.
+    for (int i = 0; i <= indexArray.size() - 1; i++)
+    {
+      if (indexArray.get(i).getCommentArray() == null)
+      {
+        retriever = new Retriever(indexedReq,indexArray,false);
+      }
+      else
+      {
+        retriever = new Retriever(indexedReq,indexArray,true);
+      }
+      log.appendText(retriever.getF1() + " " + retriever.getF2() + "\n");
+    }
     
     // Testing to see if you're actually pulling in the files; shows in log.
     for (int i = 0; i <= correctFileArray.length - 1; i++)
