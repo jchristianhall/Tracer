@@ -24,15 +24,21 @@ public class Retriever {
    * @param requirement - the requirement that is being traced
    * @param files - an ArrayList<Indexer> containing the Indexer objects of
    * source code
+   * @param correct - an ArrayList<String> of the correct answers
    * @param includeComments - a flag to indicate whether comments should be
    * retrieved
    */
-    public Retriever(Indexer requirement, ArrayList<Indexer> files, boolean includeComments){
+    public Retriever(Indexer requirement, ArrayList<Indexer> files, ArrayList<String> correct, boolean includeComments){
         for (int i = 0; i < files.size(); i++){
             RetrieverRecord tempRecord = new RetrieverRecord(requirement, files.get(i), includeComments);
             recordList.add(tempRecord);
         }
         quickSort(recordList, 0, recordList.size());
+        correctAnswers = correct;
+        calculatePrecision();
+        calculateRecall();
+        calculateF1();
+        calculateF2();
     }
     
     /**
