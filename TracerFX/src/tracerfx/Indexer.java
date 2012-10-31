@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 public class Indexer
 {
   private ArrayList<String> codeArray, commentArray, reqArray;
-  private String pathName;
+  private String pathName, fileName;
   
   /**
    * @about Constructor creates new path name and array lists and runs indexer
@@ -31,14 +31,15 @@ public class Indexer
   public Indexer(File file, boolean isCode)
   {
     pathName = file.getAbsolutePath();
+    fileName = file.getName();
     codeArray = new ArrayList<String>();
+    commentArray = new ArrayList<String>();
     
     // Indexer process for source code
     if(isCode)
     {
       try
       {
-        commentArray = new ArrayList<String>();
         separating(file);
         commentArray = splitting(commentArray);
         codeArray = splitting(codeArray);
@@ -63,6 +64,7 @@ public class Indexer
         codeArray = splitting(codeArray);
         codeArray = stemming(codeArray);
         codeArray = trimming(codeArray);
+        commentArray.clear(); // Get rid of junk
         reqArray = codeArray;
       } 
       catch (IOException e)
@@ -80,6 +82,10 @@ public class Indexer
   public String getPathName()
   {
     return pathName;
+  }
+  public String getFileName()
+  {
+      return fileName;
   }
   public ArrayList<String> getCommentArray()
   {

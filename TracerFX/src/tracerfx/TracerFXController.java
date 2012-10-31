@@ -12,6 +12,7 @@ import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -23,15 +24,19 @@ public class TracerFXController implements Initializable
 {
   // Interface variables
   @FXML private ChoiceBox indexType;
+  @FXML private ChoiceBox indexGrouping;
   @FXML private Button openButton;
   @FXML private TextArea correctFiles;
   @FXML private Button retrieveButton;
+  @FXML private Button f2Button;
+  @FXML private Button clearButton;
   @FXML private TextArea log;
   
   // Logic variables
   int fileCount = 0, dirCount = 1;
   public ArrayList<Indexer> indexArray;
   public Indexer indexedReq;
+  public ArrayList<Double> f2Scores;
   
   /**
    * @about Constructor that creates new index and requirements arrays.
@@ -39,6 +44,7 @@ public class TracerFXController implements Initializable
   public TracerFXController ()
   {
     indexArray = new ArrayList<Indexer>();
+    f2Scores = new ArrayList<Double>();
   }
   
   /**
@@ -49,11 +55,18 @@ public class TracerFXController implements Initializable
   @FXML
   public void indexProcess(ActionEvent e)
   {
+    // Choose type to index and method of grouping
     String indexTypeString = (String)indexType.getValue();
+    String indexGroupingString = (String)indexGrouping.getValue();
     if (indexTypeString == null || 
         indexTypeString.equals("Choose Type to Index"))
     {
       log.appendText("Select a type to index.\n");
+    }
+    else if (indexGroupingString == null ||
+        indexGroupingString.equals("Choose Index Grouping"))
+    {
+      log.appendText("Select a method of grouping.\n");
     }
     
     // Process for source code directory
@@ -72,13 +85,13 @@ public class TracerFXController implements Initializable
         // Add results to log and reset counts
         log.appendText("Directories found: " + dirCount + "\n");
         log.appendText("Files indexed: " + fileCount + "\n");
-        log.appendText("Source code indexing took " + duration + " seconds.\n");
+        log.appendText("Source code indexing took " + duration + " seconds.\n\n");
         dirCount = 1;
         fileCount = 0;
       }
       else
       {
-        log.appendText("Open cancelled.\n");
+        log.appendText("Open cancelled.\n\n");
       }
     }
     
@@ -96,11 +109,11 @@ public class TracerFXController implements Initializable
         double duration = (end - start)/1000000000.0;
 
         // Add results to log and reset counts
-        log.appendText("Requirement indexing took " + duration + " seconds.\n");
+        log.appendText("Requirement indexing took " + duration + " seconds.\n\n");
       }
       else
       {
-        log.appendText("Open cancelled.\n");
+        log.appendText("Open cancelled.\n\n");
       }
     }
     else
@@ -129,8 +142,7 @@ public class TracerFXController implements Initializable
       else 
       {
         fileCount++;
-        Indexer fileToIndex = new Indexer(file, true);
-        indexArray.add(fileToIndex);
+        indexArray.add(new Indexer(file, !indexGrouping.getValue().equals("Source Code")));
       }
     }
   }
@@ -143,28 +155,57 @@ public class TracerFXController implements Initializable
   @FXML
   public void retrieverProcess(ActionEvent e)
   {
-    Object[] correctFileArray = correctFiles.getParagraphs().toArray();
-    Retriever retriever;
-    
-    // Do retriever things here. correctFileArray is what you think it is.
-    for (int i = 0; i <= indexArray.size() - 1; i++)
+    ObservableList<CharSequence> correctFileArray = correctFiles.getParagraphs();
+    ArrayList<String> correctAnswers = new ArrayList<String>();
+    for (int i = 0; i < correctFileArray.size() - 1; i++)
     {
-      if (indexArray.get(i).getCommentArray() == null)
-      {
-        //retriever = new Retriever(indexedReq,indexArray,correctFileArray,false);
-      }
-      else
-      {
-        //retriever = new Retriever(indexedReq,indexArray,correctFileArray,true);
-      }
-      //log.appendText(retriever.getF1() + " " + retriever.getF2() + "\n");
+      correctAnswers.add(correctFileArray.get(i).toString());
     }
-    
-    // Testing to see if you're actually pulling in the files; shows in log.
-    for (int i = 0; i <= correctFileArray.length - 1; i++)
+    Retriever retriever = new Retriever(indexedReq,indexArray,
+            correctAnswers,!indexGrouping.getValue().equals("Source Code"));
+    ArrayList<RetrieverRecord> results = new ArrayList<RetrieverRecord>(retriever.getResults());
+    log.appendText("F1 Score: " + Double.toString(retriever.getF1()) + "\n");
+    log.appendText("F2 Score: " + Double.toString(retriever.getF2()) + "\n\n");
+    f2Scores.add(retriever.getF2());
+    for (int i = 0; i < results.size(); i++)
     {
-      log.appendText(correctFileArray[i].toString() + "\n");
+      log.appendText(results.get(i).getFileName() + "\n");
+      log.appendText("Similarity Score: " + 
+                     Double.toString(results.get(i).getScore()) + "\n\n");
     }
+  }
+  
+  /**
+   * @about Function to calculate average F2 out of all of the current F2 scores
+   * @param e 
+   */
+  public void calculateAverageF2(ActionEvent e)
+  {
+    double total = 0;
+    for (int i = 0; i <= f2Scores.size() - 1; i++)
+    {
+      total += f2Scores.get(i);
+    }
+    double average = total / f2Scores.size();
+    log.appendText("Current Average F2: " + average + "\n\n");
+  }
+  
+  /**
+   * @about Function to clear attributes of controller and GUI.
+   */
+  public void clearAttributes(ActionEvent e)
+  {
+    // Attributes
+    fileCount = 0;
+    dirCount = 1;
+    indexArray.clear();
+    f2Scores.clear();
+    
+    // GUI
+    indexType.setValue("Choose Type to Index");
+    indexGrouping.setValue("Choose Index Grouping");
+    correctFiles.clear();
+    log.clear();
   }
   
   /**
@@ -175,6 +216,7 @@ public class TracerFXController implements Initializable
   @Override
   public void initialize(URL url, ResourceBundle rb) {
     indexType.setValue("Choose Type to Index");
+    indexGrouping.setValue("Choose Index Grouping");
     log.setEditable(false);
   }  
 }
